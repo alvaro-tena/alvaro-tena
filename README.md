@@ -41,11 +41,40 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
 
 ## Tecnologías
 
+**Lenguajes, frameworks y bases de datos**
+
 [![Mi stack](https://skillicons.dev/icons?i=html,css,js,ts,react,php,laravel,python,fastapi,mysql,mongodb,redis,supabase,docker,nginx,cloudflare,linux,raspberrypi,git,github&perline=7)](https://skillicons.dev)
 
-**También trabajo con:** n8n · LangChain y LangGraph · Mistral AI, Google Gemini y Llama 3 ·
-GitHub Copilot · bases de datos vectoriales · HAProxy · Mockoon · Apache · Tkinter ·
-WAF y balanceadores · pfSense/OPNsense · Active Directory · WordPress
+**IA, automatización y herramientas de desarrollo**
+
+<p>
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n">
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain">
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph">
+  <img src="https://img.shields.io/badge/Mistral_AI-FA520F?style=for-the-badge&logo=mistralai&logoColor=white" alt="Mistral AI">
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini">
+  <img src="https://img.shields.io/badge/Llama_3-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Llama 3">
+  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor">
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot">
+  <img src="https://img.shields.io/badge/Context7-0B1120?style=for-the-badge" alt="Context7">
+  <img src="https://img.shields.io/badge/lean--ctx-0B1120?style=for-the-badge" alt="lean-ctx">
+  <img src="https://img.shields.io/badge/Mockoon-1A1A1A?style=for-the-badge" alt="Mockoon">
+</p>
+
+**Sistemas, redes e infraestructura**
+
+<p>
+  <img src="https://img.shields.io/badge/WSL-4D4D4D?style=for-the-badge&logo=linux&logoColor=white" alt="WSL">
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu">
+  <img src="https://img.shields.io/badge/VPS_Profesional_Hosting-0F62FE?style=for-the-badge" alt="VPS en Profesional Hosting">
+  <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache">
+  <img src="https://img.shields.io/badge/HAProxy-106DA9?style=for-the-badge" alt="HAProxy">
+  <img src="https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white" alt="pfSense">
+  <img src="https://img.shields.io/badge/OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white" alt="OPNsense">
+  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress">
+  <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge" alt="Active Directory">
+</p>
 
 ## Experiencia
 
