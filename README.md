@@ -78,7 +78,7 @@ automáticas con Duplicati y apoyo en proyectos Arduino con sensores.
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/Cloudflare_Zero_Trust-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Zero Trust">
-  <img src="https://img.shields.io/badge/HAProxy-106DA9?style=flat-square&logo=haproxy&logoColor=white" alt="HAProxy">
+  <img src="https://img.shields.io/badge/HAProxy-106DA9?style=flat-square" alt="HAProxy">
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain">
   <img src="https://img.shields.io/badge/Llama_3-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Llama 3">
 </p>
