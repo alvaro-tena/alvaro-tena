@@ -38,7 +38,7 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
 
 ## Cómo funciono
 
-- Organizado y proactivo: lo que se puede hacer hoy, no lo dejo para mañana.
+- Organizado y proactivo, lo que se puede hacer hoy, no lo dejo para mañana.
 - Aprendo rápido y con autonomía. Llegué a la IA desde cero y en pocos meses estaba entregando.
 - Me gusta el trabajo en equipo y documentar lo que hago para que otro pueda continuarlo.
 - Viajar me enseñó mucho: Luxemburgo, Países Bajos, Bélgica y Suecia. De ahí vienen mis ganas de salir fuera.
