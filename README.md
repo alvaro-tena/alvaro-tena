@@ -29,7 +29,7 @@ stack de esta página. El código vive en [portfolioAlvaro](https://github.com/a
 
 Desarrollador de aplicaciones web full stack con una base sólida en sistemas y redes. Trabajo como
 ingeniero de software en **Softtek**, en proyectos de Inteligencia Artificial para compañías como
-ASISA, El Corte Inglés, Banco Santander o el Real Madrid C.F. Lo que hago y cómo lo cuento está en
+ASISA, El Corte Inglés, Banco Santander o el Real Madrid C.F. Lo que hago y cómo lo hago está en
 el [portfolio](https://portfolio-alvaro-swart.vercel.app).
 
 Programo sobre todo con React, Python y PHP, pero lo que de verdad me mueve son la **ciberseguridad**
