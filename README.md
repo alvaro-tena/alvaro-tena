@@ -170,11 +170,31 @@ varios flujos coordinados recogen la información, se filtran los falsos positiv
 técnicas y se puntúan los hallazgos (CVSS). El resultado sale como JSON estructurado y viaja por
 webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
 
-### Otros repositorios públicos
+### Juego Pokémon
 
-- [juegoPokemonAlvaro](https://github.com/alvaro-tena/juegoPokemonAlvaro) — juego de Pokémon para desarrollo web en entorno cliente.
-- [whatsappWeb](https://github.com/alvaro-tena/whatsappWeb) — clon de la interfaz web de WhatsApp.
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white" alt="CSS">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
+</p>
 
+Combate por turnos en el navegador para la asignatura de desarrollo web en entorno cliente. Cada jugador elige un equipo de tres Pokémon y, en el combate, ataca, usa la mochila (pociones) o huye. El daño tiene en cuenta el tipo, el ataque y la defensa.
+
+Repositorio: [juegoPokemonAlvaro](https://github.com/alvaro-tena/juegoPokemonAlvaro)
+
+### WhatsApp Web
+
+<p>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
+</p>
+
+Clon de la interfaz de WhatsApp Web para la asignatura de diseño. La columna de chats, la búsqueda y la conversación abierta van en la misma pantalla, con burbujas de mensajes y notas de voz. Los usuarios y los mensajes se guardan en Supabase.
+
+Repositorio: [whatsappWeb](https://github.com/alvaro-tena/whatsappWeb)
 ## Contacto
 
 - Portfolio: [portfolio-alvaro-swart.vercel.app](https://portfolio-alvaro-swart.vercel.app)
