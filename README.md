@@ -12,15 +12,25 @@
   <a href="mailto:alvarotg2006@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo">
   </a>
+  <a href="https://portfolio-alvaro-swart.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
+  </a>
 </p>
 
 ---
+
+## Portfolio
+
+Ahí está quien soy, no un listado de prácticas. [portfolio-alvaro-swart.vercel.app](https://portfolio-alvaro-swart.vercel.app)
+reúne la trayectoria en Softtek, Tengara, el OCR antifraude y la plataforma de DevSecOps, con el mismo
+stack de esta página. El código vive en [portfolioAlvaro](https://github.com/alvaro-tena/portfolioAlvaro).
 
 ## Quién soy
 
 Desarrollador de aplicaciones web full stack con una base sólida en sistemas y redes. Trabajo como
 ingeniero de software en **Softtek**, en proyectos de Inteligencia Artificial para compañías como
-ASISA, El Corte Inglés, Banco Santander o el Real Madrid C.F.
+ASISA, El Corte Inglés, Banco Santander o el Real Madrid C.F. Lo que hago y cómo lo cuento está en
+el [portfolio](https://portfolio-alvaro-swart.vercel.app).
 
 Programo sobre todo con React, Python y PHP, pero lo que de verdad me mueve son la **ciberseguridad**
 y la **IA**: automatizar con n8n, exprimir los copilotos y entender el lado defensivo de la red, desde
@@ -169,11 +179,11 @@ webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
 ### Otros repositorios públicos
 
 - [juegoPokemonAlvaro](https://github.com/alvaro-tena/juegoPokemonAlvaro) — juego de Pokémon para desarrollo web en entorno cliente.
-- [portfolioAlvaro](https://github.com/alvaro-tena/portfolioAlvaro) — portfolio de la asignatura de Diseño.
 - [whatsappWeb](https://github.com/alvaro-tena/whatsappWeb) — clon de la interfaz web de WhatsApp.
 
 ## Contacto
 
+- Portfolio: [portfolio-alvaro-swart.vercel.app](https://portfolio-alvaro-swart.vercel.app)
 - LinkedIn: [Álvaro Tena García](https://www.linkedin.com/in/%C3%A1lvaro-tena-garc%C3%ADa-14662a182)
 - Correo: [alvarotg2006@gmail.com](mailto:alvarotg2006@gmail.com)
 
