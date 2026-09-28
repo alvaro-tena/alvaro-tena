@@ -72,6 +72,9 @@ automáticas con Duplicati y apoyo en proyectos Arduino con sensores.
 ### Tengara — Plataforma distribuida de ciberinteligencia (mi TFG)
 
 <p>
+  <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi">
+  <img src="https://img.shields.io/badge/Cowrie-1B3A57?style=flat-square" alt="Cowrie">
+  <img src="https://img.shields.io/badge/Krawl-1B3A57?style=flat-square" alt="Krawl">
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
@@ -93,8 +96,6 @@ fuentes OSINT (VirusTotal, Shodan, AbuseIPDB) y pide a un LLM (**Llama 3**) un i
 centraliza en un dashboard en **React** con un globo 3D de trazabilidad y gráficas de tendencias. Añadí
 alertas automáticas a un bot de **Telegram** cuando aparecen payloads destructivos, y un copiloto de IA
 que permite auditar la base de datos MySQL preguntando en lenguaje natural.
-
-[Ver la plataforma](https://tengara.drogon.online/)
 
 ### Arquitectura OCR con extracción por IA y control antifraude
 
@@ -147,4 +148,4 @@ webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
 - LinkedIn: [Álvaro Tena García](https://www.linkedin.com/in/%C3%A1lvaro-tena-garc%C3%ADa-14662a182)
 - Correo: [alvarotg2006@gmail.com](mailto:alvarotg2006@gmail.com)
 
-<p align="center"><i>Si buscas a alguien motivado, responsable y con muchas ganas de aprender, contacta conmigo!!</i></p>
+<p align="center"><i>Si buscas a alguien motivado, responsable y con muchas ganas de aprender, hablemos.</i></p>
