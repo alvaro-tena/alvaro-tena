@@ -19,12 +19,6 @@
 
 ---
 
-## Portfolio
-
-Ahí está quien soy, no un listado de prácticas. [portfolio-alvaro-swart.vercel.app](https://portfolio-alvaro-swart.vercel.app)
-reúne la trayectoria en Softtek, Tengara, el OCR antifraude y la plataforma de DevSecOps, con el mismo
-stack de esta página. El código vive en [portfolioAlvaro](https://github.com/alvaro-tena/portfolioAlvaro).
-
 ## Quién soy
 
 Desarrollador de aplicaciones web full stack con una base sólida en sistemas y redes. Trabajo como
