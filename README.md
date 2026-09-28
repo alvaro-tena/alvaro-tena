@@ -177,4 +177,4 @@ webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
 - LinkedIn: [Álvaro Tena García](https://www.linkedin.com/in/%C3%A1lvaro-tena-garc%C3%ADa-14662a182)
 - Correo: [alvarotg2006@gmail.com](mailto:alvarotg2006@gmail.com)
 
-<p align="center"><i>Si buscas a alguien motivado, responsable y con muchas ganas de aprender, hablemos.</i></p>
+<p align="center"><i>Si buscas a alguien motivado, responsable y con muchas ganas de aprender, contacta conmigo!!</i></p>
