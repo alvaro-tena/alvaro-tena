@@ -130,6 +130,39 @@ centraliza en un dashboard en **React** con un globo 3D de trazabilidad y gráfi
 alertas automáticas a un bot de **Telegram** cuando aparecen payloads destructivos, y un copiloto de IA
 que permite auditar la base de datos MySQL preguntando en lenguaje natural.
 
+### Generador de Presupuesto Automático con IA
+
+<p>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
+</p>
+
+Generador automático de presupuestos (ene. 2026 – feb. 2026). El RFP se procesa y los embeddings quedan guardados para analizar el contexto y la complejidad de cada funcionalidad. En la web se elige el proyecto y el presupuesto completo sale al instante.
+
+- **Desglose técnico**: épicas y tareas separadas en frontend y backend.
+- **Equipo y costes**: equipo recomendado (PM, QA y desarrollo) y coste a partir de las horas.
+- **Recálculo en tiempo real**: al cambiar la talla de desarrollo (XS–XXL) se actualizan el presupuesto, las métricas y los gráficos. El control de la tarifa horaria media hace lo mismo.
+- **Filtros y Excel**: se puede buscar una funcionalidad o filtrar por talla, y exportar de un clic el desglose, las leyendas y el resumen ejecutivo.
+
+### DataManager Copilot
+
+<p>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code">
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+</p>
+
+Sistema de QA inteligente (mar. 2026 – may. 2026). Asistente dentro de VS Code para buscar, preparar y reservar datos de prueba, en vez de pelearse con las bases de datos a mano.
+
+- **De principio a fin**: lee los requisitos en Jira y comprueba que las APIs del entorno UAT están listas.
+- **Reserva inteligente**: localiza los datos y crea bloqueos temporales para que nadie más los pise.
+- **Sincronización Git**: commits y pushes automáticos. Si hay un conflicto, actualiza y busca otra alternativa.
+- **Conexión directa**: publica la información en las colas de Kafka.
+- **Cero alucinaciones**: no inventa comandos, usa herramientas en Node.js y se para a preguntar si falta un dato.
+
+
 ### Arquitectura OCR con extracción por IA y control antifraude
 
 <p>
