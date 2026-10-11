@@ -1,6 +1,9 @@
-<!-- Banner (concepto "desmonta mi PC pieza a pieza", a juego con el portfolio) -->
+<!-- Banner animado: versión vertical en pantallas estrechas, horizontal en el resto -->
 <p align="center">
-  <img src="./assets/hero.svg" alt="Álvaro Tena García — Ingeniero de software. Desarrollo web full stack, IA y ciberseguridad." width="100%">
+  <picture>
+    <source media="(max-width: 700px)" srcset="./assets/hero-mobile.svg">
+    <img src="./assets/hero.svg" alt="Álvaro Tena García — Ingeniero de software en Softtek · Córdoba, España. Desarrollo web full stack, Inteligencia Artificial y Ciberseguridad." width="100%">
+  </picture>
 </p>
 
 <p align="center">
@@ -89,18 +92,6 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
   <img src="https://img.shields.io/badge/OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white" alt="OPNsense">
   <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress">
   <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge" alt="Active Directory">
-</p>
-
----
-
-## GitHub en números
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=alvaro-tena&show_icons=true&count_private=true&hide_border=true&bg_color=05070c&title_color=34d399&text_color=e9eef6&icon_color=a78bfa&ring_color=34d399" alt="Estadísticas de GitHub de Álvaro Tena">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alvaro-tena&layout=compact&langs_count=8&hide_border=true&bg_color=05070c&title_color=34d399&text_color=e9eef6" alt="Lenguajes más usados">
-</p>
-<p align="center">
-  <img height="165" src="https://streak-stats.demolab.com/?user=alvaro-tena&hide_border=true&background=05070c&stroke=1f2a3a&ring=34d399&fire=a78bfa&currStreakLabel=34d399&sideLabels=e9eef6&dates=8b98ad&currStreakNum=e9eef6&sideNums=e9eef6" alt="Racha de commits">
 </p>
 
 ---
