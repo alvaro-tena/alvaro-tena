@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Álvaro Tena García — Ingeniero de software. Desarrollo web full stack, IA y ciberseguridad.">
+  <title>Álvaro Tena García — Ingeniero de software</title>
+  <defs>
+    <linearGradient id="g-name" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e9eef6"/>
+      <stop offset="100%" stop-color="#a9b6c9"/>
+    </linearGradient>
+    <radialGradient id="g-glow" cx="78%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.18"/>
+      <stop offset="55%" stop-color="#a78bfa" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#05070c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="g-board" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1322"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
+    <filter id="f-soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="p-grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#ffffff" stroke-opacity="0.028" stroke-width="1"/>
+    </pattern>
+    <style>
+      .n   { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif; }
+      .m   { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; }
+      .draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 2.1s ease forwards; }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      .rise { opacity: 0; transform: translateY(10px); animation: rise .8s cubic-bezier(.22,1,.36,1) forwards; }
+      @keyframes rise { to { opacity: 1; transform: translateY(0); } }
+      .piece { transform-box: fill-box; transform-origin: center; animation: float 7s ease-in-out infinite; }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      .led { animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+      .cursor { animation: blink 1.05s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .scan { animation: scan 5.5s linear infinite; }
+      @keyframes scan { 0% { transform: translateX(-260px); opacity: 0; } 8% { opacity: .5; } 92% { opacity: .5; } 100% { transform: translateX(300px); opacity: 0; } }
+      .d1 { animation-delay: .15s; } .d2 { animation-delay: .3s; } .d3 { animation-delay: .45s; }
+      .d4 { animation-delay: .6s; } .d5 { animation-delay: .75s; } .d6 { animation-delay: .9s; }
+      .pf2 { animation-delay: -1.4s; } .pf3 { animation-delay: -2.8s; } .pf4 { animation-delay: -4.2s; } .pf5 { animation-delay: -.7s; }
+      @media (prefers-reduced-motion: reduce) {
+        .draw,.rise,.piece,.led,.cursor,.scan { animation: none !important; opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; }
+      }
+    </style>
+  </defs>
+
+  <!-- fondo -->
+  <rect width="1200" height="420" rx="18" fill="#05070c"/>
+  <rect width="1200" height="420" rx="18" fill="url(#p-grid)"/>
+  <rect width="1200" height="420" rx="18" fill="url(#g-glow)"/>
+  <rect x="1.5" y="1.5" width="1197" height="417" rx="16.5" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- ===================== LADO DERECHO: PC despiezado ===================== -->
+  <g transform="translate(690 40)">
+    <!-- trazas de circuito que se dibujan -->
+    <g fill="none" stroke="#34d399" stroke-opacity="0.55" stroke-width="1.5" stroke-linecap="round" pathLength="1">
+      <path class="draw d1" d="M250 160 H150 V96"/>
+      <path class="draw d2" d="M250 180 H330"/>
+      <path class="draw d3" d="M150 224 V300 H250"/>
+      <path class="draw d4" d="M330 224 H400 V150"/>
+      <path class="draw d5" d="M150 150 H60 V250"/>
+    </g>
+    <g fill="#34d399">
+      <circle class="led" cx="150" cy="96" r="3"/>
+      <circle class="led pf2" cx="330" cy="180" r="3"/>
+      <circle class="led pf3" cx="250" cy="300" r="3"/>
+      <circle class="led pf4" cx="60" cy="250" r="3"/>
+      <circle class="led pf5" cx="400" cy="150" r="3"/>
+    </g>
+
+    <!-- placa base -->
+    <g class="rise d1">
+      <rect x="150" y="150" width="200" height="150" rx="10" fill="url(#g-board)" stroke="#34d399" stroke-opacity="0.35"/>
+      <text class="m" x="162" y="292" fill="#34d399" fill-opacity="0.75" font-size="10" letter-spacing="1">PLACA</text>
+      <!-- socket cpu -->
+      <rect x="196" y="186" width="54" height="54" rx="6" fill="#0a1018" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <g stroke="#a78bfa" stroke-opacity="0.35" stroke-width="1">
+        <path d="M196 200 H250 M196 214 H250 M196 228 H250 M210 186 V240 M224 186 V240 M238 186 V240"/>
+      </g>
+    </g>
+
+    <!-- CPU (despiezada arriba) -->
+    <g class="piece"><g class="rise d2">
+      <rect x="196" y="60" width="56" height="56" rx="7" fill="#0b1422" stroke="#34d399" stroke-opacity="0.6" filter="url(#f-soft)"/>
+      <rect x="208" y="72" width="32" height="32" rx="3" fill="#0f1c30" stroke="#34d399" stroke-opacity="0.4"/>
+      <text class="m" x="224" y="52" fill="#8b98ad" font-size="10" text-anchor="middle" letter-spacing="1">CPU</text>
+    </g></g>
+
+    <!-- RAM x2 (derecha) -->
+    <g class="piece pf2"><g class="rise d3">
+      <rect x="372" y="150" width="20" height="92" rx="4" fill="#0b1422" stroke="#a78bfa" stroke-opacity="0.55"/>
+      <rect x="398" y="150" width="20" height="92" rx="4" fill="#0b1422" stroke="#a78bfa" stroke-opacity="0.55"/>
+      <g stroke="#a78bfa" stroke-opacity="0.3" stroke-width="1">
+        <path d="M376 236 V240 M382 236 V240 M388 236 V240 M402 236 V240 M408 236 V240 M414 236 V240"/>
+      </g>
+      <text class="m" x="400" y="140" fill="#8b98ad" font-size="10" text-anchor="middle" letter-spacing="1">RAM</text>
+    </g></g>
+
+    <!-- GPU (abajo) -->
+    <g class="piece pf3"><g class="rise d4">
+      <rect x="120" y="314" width="170" height="56" rx="8" fill="#0b1422" stroke="#34d399" stroke-opacity="0.5"/>
+      <circle cx="162" cy="342" r="17" fill="none" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="162" cy="342" r="6" fill="#0f1c30" stroke="#34d399" stroke-opacity="0.5"/>
+      <circle cx="238" cy="342" r="17" fill="none" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="238" cy="342" r="6" fill="#0f1c30" stroke="#34d399" stroke-opacity="0.5"/>
+      <text class="m" x="276" y="334" fill="#8b98ad" font-size="10" text-anchor="end" letter-spacing="1">GPU</text>
+    </g></g>
+
+    <!-- SSD (izquierda) -->
+    <g class="piece pf4"><g class="rise d5">
+      <rect x="18" y="214" width="84" height="30" rx="5" fill="#0b1422" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <rect x="26" y="222" width="40" height="14" rx="2" fill="#0f1c30"/>
+      <text class="m" x="60" y="208" fill="#8b98ad" font-size="10" text-anchor="middle" letter-spacing="1">SSD</text>
+    </g></g>
+
+    <!-- ventilador (arriba izq) -->
+    <g class="piece pf5"><g class="rise d6">
+      <rect x="112" y="58" width="76" height="76" rx="10" fill="#0b1422" stroke="#34d399" stroke-opacity="0.4"/>
+      <g stroke="#34d399" stroke-opacity="0.45" fill="none" stroke-width="1.4">
+        <circle cx="150" cy="96" r="26"/>
+        <path d="M150 96 C150 80 164 76 170 84 M150 96 C166 96 170 110 162 116 M150 96 C150 112 136 116 130 108 M150 96 C134 96 130 82 138 76"/>
+      </g>
+      <text class="m" x="150" y="150" fill="#8b98ad" font-size="10" text-anchor="middle" letter-spacing="1">FAN</text>
+    </g></g>
+
+    <!-- banda de escaneo -->
+    <g clip-path="inset(0 round 10px)">
+      <rect class="scan" x="0" y="40" width="42" height="360" fill="#34d399" fill-opacity="0.07"/>
+    </g>
+  </g>
+
+  <!-- ===================== LADO IZQUIERDO: texto ===================== -->
+  <g transform="translate(70 0)">
+    <g class="m" font-size="15">
+      <text class="rise" x="0" y="150" fill="#34d399">&gt; hola, soy<tspan class="cursor" dx="4" fill="#34d399">_</tspan></text>
+    </g>
+    <text class="n rise d1" x="-2" y="220" font-size="56" font-weight="800" fill="url(#g-name)" letter-spacing="-1">Álvaro Tena García</text>
+    <text class="n rise d2" x="0" y="262" font-size="19" fill="#e9eef6" fill-opacity="0.92">Ingeniero de software en Softtek · Córdoba, España</text>
+
+    <!-- tagline en chips mono -->
+    <g transform="translate(0 292)"><g class="rise d3">
+      <g>
+        <rect x="0" y="0" width="200" height="30" rx="15" fill="#34d399" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.35"/>
+        <text class="m" x="16" y="20" font-size="12" fill="#34d399">Desarrollo web full stack</text>
+      </g>
+      <g transform="translate(214 0)">
+        <rect x="0" y="0" width="190" height="30" rx="15" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.35"/>
+        <text class="m" x="16" y="20" font-size="12" fill="#a78bfa">Inteligencia Artificial</text>
+      </g>
+      <g transform="translate(418 0)">
+        <rect x="0" y="0" width="136" height="30" rx="15" fill="#34d399" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.35"/>
+        <text class="m" x="16" y="20" font-size="12" fill="#34d399">Ciberseguridad</text>
+      </g>
+    </g></g>
+
+    <!-- regla inferior -->
+    <path class="draw d4" d="M0 356 H500" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" pathLength="1"/>
+    <text class="m rise d5" x="0" y="380" font-size="12" fill="#8b98ad">React · Python · PHP · n8n · LangChain · Docker · Linux</text>
+  </g>
+</svg>

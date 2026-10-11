@@ -1,8 +1,6 @@
-<h1 align="center">¡Hola! Soy Álvaro Tena García</h1>
-
+<!-- Banner (concepto "desmonta mi PC pieza a pieza", a juego con el portfolio) -->
 <p align="center">
-  <b>Ingeniero de software en Softtek</b> · Córdoba, España<br>
-  Desarrollo web full stack · Inteligencia Artificial · Ciberseguridad
+  <img src="./assets/hero.svg" alt="Álvaro Tena García — Ingeniero de software. Desarrollo web full stack, IA y ciberseguridad." width="100%">
 </p>
 
 <p align="center">
@@ -30,18 +28,31 @@ Programo sobre todo con React, Python y PHP, pero lo que de verdad me mueve son 
 y la **IA**: automatizar con n8n, exprimir los copilotos y entender el lado defensivo de la red, desde
 resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF y balanceadores de carga.
 
-## Mis objetivos
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Mis objetivos
 
 - Hacer una especialización y, más adelante, la carrera de **ingeniería en ciberseguridad**.
 - Seguir creciendo en proyectos donde la IA y la seguridad se junten de verdad.
 - **Trabajar en el extranjero**, en entornos dinámicos donde no deje de aprender.
 
-## Cómo funciono
+</td>
+<td width="50%" valign="top">
+
+### Cómo funciono
 
 - Organizado y proactivo, lo que se puede hacer hoy, no lo dejo para mañana.
 - Aprendo rápido y con autonomía. Llegué a la IA desde cero y en pocos meses estaba entregando.
 - Me gusta el trabajo en equipo y documentar lo que hago para que otro pueda continuarlo.
 - Viajar me enseñó mucho: Luxemburgo, Países Bajos, Bélgica y Suecia. De ahí vienen mis ganas de salir fuera.
+
+</td>
+</tr>
+</table>
+
+---
 
 ## Tecnologías
 
@@ -80,18 +91,55 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
   <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge" alt="Active Directory">
 </p>
 
+---
+
+## GitHub en números
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=alvaro-tena&show_icons=true&count_private=true&hide_border=true&bg_color=05070c&title_color=34d399&text_color=e9eef6&icon_color=a78bfa&ring_color=34d399" alt="Estadísticas de GitHub de Álvaro Tena">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alvaro-tena&layout=compact&langs_count=8&hide_border=true&bg_color=05070c&title_color=34d399&text_color=e9eef6" alt="Lenguajes más usados">
+</p>
+<p align="center">
+  <img height="165" src="https://streak-stats.demolab.com/?user=alvaro-tena&hide_border=true&background=05070c&stroke=1f2a3a&ring=34d399&fire=a78bfa&currStreakLabel=34d399&sideLabels=e9eef6&dates=8b98ad&currStreakNum=e9eef6&sideNums=e9eef6" alt="Racha de commits">
+</p>
+
+---
+
 ## Experiencia
+
+<table>
+<tr>
+<td valign="top">🏢</td>
+<td>
 
 **Softtek** — Ingeniero de software · Córdoba (desde mayo de 2026)
 Proyectos de IA a distintos niveles: integración, experiencia de usuario, generación de código y
 conexión con sistemas de diseño. Entré tras mis prácticas en el laboratorio **Innovation Labs** y firmé contrato.
 
+</td>
+</tr>
+<tr>
+<td valign="top">🎓</td>
+<td>
+
 **Universidad de Córdoba** — Prácticas de desarrollo web (mayo de 2025)
 Desarrollo con WordPress, programación en PHP y gestión de Active Directory.
+
+</td>
+</tr>
+<tr>
+<td valign="top">🌐</td>
+<td>
 
 **CICAP** — Técnico de redes y sistemas (marzo–junio de 2023)
 Mantenimiento de red y equipos, documentación de topologías, despliegue de GLPI, copias de seguridad
 automáticas con Duplicati y apoyo en proyectos Arduino con sensores.
+
+</td>
+</tr>
+</table>
+
+---
 
 ## Formación
 
@@ -100,9 +148,13 @@ automáticas con Duplicati y apoyo en proyectos Arduino con sensores.
 - **ESO** — IES Jerez y Caballero · nota final 8,89
 - Inglés: comprensión B1–B2
 
+---
+
 ## Proyectos
 
-### Tengara — Plataforma distribuida de ciberinteligencia (mi TFG)
+<details open>
+<summary><b>Tengara — Plataforma distribuida de ciberinteligencia (mi TFG)</b></summary>
+<br>
 
 <p>
   <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi">
@@ -130,7 +182,11 @@ centraliza en un dashboard en **React** con un globo 3D de trazabilidad y gráfi
 alertas automáticas a un bot de **Telegram** cuando aparecen payloads destructivos, y un copiloto de IA
 que permite auditar la base de datos MySQL preguntando en lenguaje natural.
 
-### Generador de Presupuesto Automático con IA
+</details>
+
+<details>
+<summary><b>Generador de Presupuesto Automático con IA</b></summary>
+<br>
 
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
@@ -144,7 +200,11 @@ Generador automático de presupuestos (ene. 2026 – feb. 2026). El RFP se proce
 - **Recálculo en tiempo real**: al cambiar la talla de desarrollo (XS–XXL) se actualizan el presupuesto, las métricas y los gráficos. El control de la tarifa horaria media hace lo mismo.
 - **Filtros y Excel**: se puede buscar una funcionalidad o filtrar por talla, y exportar de un clic el desglose, las leyendas y el resumen ejecutivo.
 
-### DataManager Copilot
+</details>
+
+<details>
+<summary><b>DataManager Copilot</b></summary>
+<br>
 
 <p>
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code">
@@ -162,8 +222,11 @@ Sistema de QA inteligente (mar. 2026 – may. 2026). Asistente dentro de VS Code
 - **Conexión directa**: publica la información en las colas de Kafka.
 - **Cero alucinaciones**: no inventa comandos, usa herramientas en Node.js y se para a preguntar si falta un dato.
 
+</details>
 
-### Arquitectura OCR con extracción por IA y control antifraude
+<details>
+<summary><b>Arquitectura OCR con extracción por IA y control antifraude</b></summary>
+<br>
 
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
@@ -190,7 +253,11 @@ Arquitectura de extremo a extremo para reembolsos médicos que junta OCR multimo
 - **Multimodalidad**: Mistral procesa PDFs nativos, escaneados e imágenes y devuelve un esquema JSON
   estricto, con Markdown como respaldo.
 
-### Plataforma de auditoría y DevSecOps con IA
+</details>
+
+<details>
+<summary><b>Plataforma de auditoría y DevSecOps con IA</b></summary>
+<br>
 
 <p>
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
@@ -203,7 +270,11 @@ varios flujos coordinados recogen la información, se filtran los falsos positiv
 técnicas y se puntúan los hallazgos (CVSS). El resultado sale como JSON estructurado y viaja por
 webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
 
-### Juego Pokémon
+</details>
+
+<details>
+<summary><b>Juego Pokémon</b></summary>
+<br>
 
 <p>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
@@ -216,7 +287,11 @@ Combate por turnos en el navegador para la asignatura de desarrollo web en entor
 
 Repositorio: [juegoPokemonAlvaro](https://github.com/alvaro-tena/juegoPokemonAlvaro)
 
-### WhatsApp Web
+</details>
+
+<details>
+<summary><b>WhatsApp Web</b></summary>
+<br>
 
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
@@ -228,6 +303,11 @@ Repositorio: [juegoPokemonAlvaro](https://github.com/alvaro-tena/juegoPokemonAlv
 Clon de la interfaz de WhatsApp Web para la asignatura de diseño. La columna de chats, la búsqueda y la conversación abierta van en la misma pantalla, con burbujas de mensajes y notas de voz. Los usuarios y los mensajes se guardan en Supabase.
 
 Repositorio: [whatsappWeb](https://github.com/alvaro-tena/whatsappWeb)
+
+</details>
+
+---
+
 ## Contacto
 
 - Portfolio: [portfolio-alvaro-swart.vercel.app](https://portfolio-alvaro-swart.vercel.app)
