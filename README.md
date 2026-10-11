@@ -31,29 +31,18 @@ Programo sobre todo con React, Python y PHP, pero lo que de verdad me mueve son 
 y la **IA**: automatizar con n8n, exprimir los copilotos y entender el lado defensivo de la red, desde
 resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF y balanceadores de carga.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Mis objetivos
+## Mis objetivos
 
 - Hacer una especialización y, más adelante, la carrera de **ingeniería en ciberseguridad**.
 - Seguir creciendo en proyectos donde la IA y la seguridad se junten de verdad.
 - **Trabajar en el extranjero**, en entornos dinámicos donde no deje de aprender.
 
-</td>
-<td width="50%" valign="top">
-
-### Cómo funciono
+## Cómo funciono
 
 - Organizado y proactivo, lo que se puede hacer hoy, no lo dejo para mañana.
 - Aprendo rápido y con autonomía. Llegué a la IA desde cero y en pocos meses estaba entregando.
 - Me gusta el trabajo en equipo y documentar lo que hago para que otro pueda continuarlo.
 - Viajar me enseñó mucho: Luxemburgo, Países Bajos, Bélgica y Suecia. De ahí vienen mis ganas de salir fuera.
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -98,37 +87,16 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
 
 ## Experiencia
 
-<table>
-<tr>
-<td valign="top">🏢</td>
-<td>
-
 **Softtek** — Ingeniero de software · Córdoba (desde mayo de 2026)
 Proyectos de IA a distintos niveles: integración, experiencia de usuario, generación de código y
 conexión con sistemas de diseño. Entré tras mis prácticas en el laboratorio **Innovation Labs** y firmé contrato.
 
-</td>
-</tr>
-<tr>
-<td valign="top">🎓</td>
-<td>
-
 **Universidad de Córdoba** — Prácticas de desarrollo web (mayo de 2025)
 Desarrollo con WordPress, programación en PHP y gestión de Active Directory.
-
-</td>
-</tr>
-<tr>
-<td valign="top">🌐</td>
-<td>
 
 **CICAP** — Técnico de redes y sistemas (marzo–junio de 2023)
 Mantenimiento de red y equipos, documentación de topologías, despliegue de GLPI, copias de seguridad
 automáticas con Duplicati y apoyo en proyectos Arduino con sensores.
-
-</td>
-</tr>
-</table>
 
 ---
 
