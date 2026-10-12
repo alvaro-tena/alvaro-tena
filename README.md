@@ -232,6 +232,54 @@ webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
 </details>
 
 <details>
+<summary><b>Alvi - Mi Asistente Virtual</b></summary>
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
+  <img src="https://img.shields.io/badge/Gemma_4-4285F4?style=flat-square" alt="Gemma 4">
+  <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi">
+  <img src="https://img.shields.io/badge/Piper_TTS-1B3A57?style=flat-square" alt="Piper TTS">
+  <img src="https://img.shields.io/badge/Windows_API-0078D4?style=flat-square" alt="Windows API">
+</p>
+
+Asistente de voz que corre en local y deja el entorno de trabajo listo (sep. 2026 – oct. 2026). No escribe ni modifica el código de las aplicaciones: mueve ventanas, arranca Docker, lee los logs, opera Git, abre aplicaciones y deja un informe para que el editor haga el cambio. Se le habla diciendo «alvi» en cualquier punto de la frase.
+
+- **Modelo local y acotado**: Gemma 4 en Ollama, en la GPU del propio PC, con medio segundo por turno. Solo puede llamar a funciones cerradas: sin shell libre y sin rutas, únicamente proyectos declarados.
+- **Acciones con permiso**: matar un puerto, hacer commit o push exige un verbo explícito; una pregunta no autoriza nada. Una frase puede traer varias órdenes y se ejecutan en el orden dicho.
+- **Red y arranque**: una Raspberry Pi hace de centinela de red, despierta el PC por Wake-on-LAN y comprueba que ha respondido.
+- **Voz y pantalla**: Piper le pone voz en español, los comandos se quedan en el portapapeles listos para pegar y el OCR offline de Windows lee los errores que hay a la vista.
+
+</details>
+
+<details>
+<summary><b>Proxy para Agentes de IA</b></summary>
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime">
+  <img src="https://img.shields.io/badge/Llama_Guard-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Llama Guard">
+  <img src="https://img.shields.io/badge/MCP-1C3C3C?style=flat-square" alt="MCP">
+</p>
+
+Proxy de seguridad en tiempo de ejecución (RASP) que se sitúa entre los agentes de IA y el proveedor del modelo (sep. 2026). Funciona como un antivirus para agentes: intercepta el tráfico, compara el significado de los prompts con firmas de ataque y vigila los flujos tóxicos de cada sesión.
+
+- **Filtro de entrada**: un modelo local de intención (Prompt-Guard y Llama Guard 3) decide si cada petición pasa; si no responde, bloquea.
+- **Proxy ligero sin Docker**: un binario en Go con ONNX Runtime bloquea credenciales, busca firmas de ataque por embeddings y pasa un clasificador de inyección de prompts.
+- **Router**: traduce entre OpenAI y Anthropic y evita que el prompt de sistema se filtre en las respuestas.
+- **Cadena de suministro**: un gateway MCP y un analizador (YARA y Frida) auditan skills y servidores MCP y los bloquean o los ponen en cuarentena.
+- **Modo sombra**: registra sin bloquear para calibrar los umbrales con tráfico real antes de pasar a bloquear. Pensado para cubrir el OWASP Top 10 de aplicaciones agénticas.
+
+</details>
+
+<details>
 <summary><b>Juego Pokémon</b></summary>
 <br>
 
