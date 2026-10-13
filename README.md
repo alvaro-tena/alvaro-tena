@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/%C3%A1lvaro-tena-garc%C3%ADa-14662a182">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYTIuMDYyIDIuMDYyIDAgMSAxIDAtNC4xMjUgMi4wNjIgMi4wNjIgMCAwIDEgMCA0LjEyNXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAweiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn">
   </a>
   <a href="mailto:alvarotg2006@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo">
@@ -50,37 +50,53 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
 
 **Lenguajes, frameworks y bases de datos**
 
-[![Mi stack](https://skillicons.dev/icons?i=html,css,js,ts,react,php,laravel,python,fastapi,mysql,mongodb,redis,supabase,docker,nginx,cloudflare,linux,raspberrypi,git,github&perline=7)](https://skillicons.dev)
+[![Mi stack](https://skillicons.dev/icons?i=html,css,js,ts,react,php,laravel,python,fastapi,mysql,sqlite,mongodb,redis,supabase,docker,nginx,cloudflare,aws,linux,raspberrypi,git,github&perline=11)](https://skillicons.dev)
+
+<p>
+  <img src="https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMi41IDIuNWgxOXYxOWgtMTl6bTEuOCAxLjh2Mi42aDE1LjRWNC4zem0wIDQuMnYxMS4yaDcuMlY4LjV6bTguOCAwaDYuNnY0LjZoLTYuNnptMCA2LjJoNi42djVoLTYuNnoiLz48L3N2Zz4K" alt="Tkinter">
+</p>
 
 **IA, automatización y herramientas de desarrollo**
 
 <p>
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n">
+  <img src="https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIgMTEuMWgxMS42bC0zLjUtMy41IDIuMS0yLjFMMjEuNiAxMmwtOS40IDYuNS0yLjEtMi4xIDMuNS0zLjVIMnoiLz48L3N2Zz4K" alt="Power Automate">
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain">
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph">
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
   <img src="https://img.shields.io/badge/Mistral_AI-FA520F?style=for-the-badge&logo=mistralai&logoColor=white" alt="Mistral AI">
   <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini">
   <img src="https://img.shields.io/badge/Llama_3-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Llama 3">
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor">
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor">
   <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot">
+  <img src="https://img.shields.io/badge/OpenCode-211E1E?style=for-the-badge&logo=opencode&logoColor=white" alt="OpenCode">
+  <img src="https://img.shields.io/badge/Codex-3B5BDB?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTkuMDY0IDMuMzQ0YTQuNTc4IDQuNTc4IDAgMDEyLjI4NS0uMzEyYzEgLjExNSAxLjg5MS41NCAyLjY3MyAxLjI3NS4wMS4wMS4wMjQuMDE3LjAzNy4wMjFhLjA5LjA5IDAgMDAuMDQzIDAgNC41NSA0LjU1IDAgMDEzLjA0Ni4yNzVsLjA0Ny4wMjIuMTE2LjA1N2E0LjU4MSA0LjU4MSAwIDAxMi4xODggMi4zOTljLjIwOS41MS4zMTMgMS4wNDEuMzE1IDEuNTk1YTQuMjQgNC4yNCAwIDAxLS4xMzQgMS4yMjMuMTIzLjEyMyAwIDAwLjAzLjExNWMuNTk0LjYwNy45ODggMS4zMyAxLjE4MyAyLjE3LjI4OSAxLjQyNS0uMDA3IDIuNzEtLjg4NyAzLjg1NGwtLjEzNi4xNjZhNC41NDggNC41NDggMCAwMS0yLjIwMSAxLjM4OC4xMjMuMTIzIDAgMDAtLjA4MS4wNzZjLS4xOTEuNTUxLS4zODMgMS4wMjMtLjc0IDEuNDk0LS45IDEuMTg3LTIuMjIyIDEuODQ2LTMuNzExIDEuODM4LTEuMTg3LS4wMDYtMi4yMzktLjQ0LTMuMTU3LTEuMzAyYS4xMDcuMTA3IDAgMDAtLjEwNS0uMDI0Yy0uMzg4LjEyNS0uNzguMTQzLTEuMjA0LjEzOGE0LjQ0MSA0LjQ0MSAwIDAxLTEuOTQ1LS40NjYgNC41NDQgNC41NDQgMCAwMS0xLjYxLTEuMzM1Yy0uMTUyLS4yMDItLjMwMy0uMzkyLS40MTQtLjYxN2E1LjgxIDUuODEgMCAwMS0uMzctLjk2MSA0LjU4MiA0LjU4MiAwIDAxLS4wMTQtMi4yOTguMTI0LjEyNCAwIDAwLjAwNi0uMDU2LjA4NS4wODUgMCAwMC0uMDI3LS4wNDggNC40NjcgNC40NjcgMCAwMS0xLjAzNC0xLjY1MSAzLjg5NiAzLjg5NiAwIDAxLS4yNTEtMS4xOTIgNS4xODkgNS4xODkgMCAwMS4xNDEtMS42Yy4zMzctMS4xMTIuOTgyLTEuOTg1IDEuOTMzLTIuNjE4LjIxMi0uMTQxLjQxMy0uMjUxLjYwMS0uMzMuMjE1LS4wODkuNDMtLjE2NC42NDYtLjIyN2EuMDk4LjA5OCAwIDAwLjA2NS0uMDY2IDQuNTEgNC41MSAwIDAxLjgyOS0xLjYxNSA0LjUzNSA0LjUzNSAwIDAxMS44MzctMS4zODh6bTMuNDgyIDEwLjU2NWEuNjM3LjYzNyAwIDAwMCAxLjI3MmgzLjYzNmEuNjM3LjYzNyAwIDEwMC0xLjI3MmgtMy42MzZ6TTguNDYyIDkuMjNhLjYzNy42MzcgMCAwMC0xLjEwNi42MzFsMS4yNzIgMi4yMjQtMS4yNjYgMi4xMzZhLjYzNi42MzYgMCAxMDEuMDk1LjY0OWwxLjQ1NC0yLjQ1NWEuNjM2LjYzNiAwIDAwLjAwNS0uNjRMOC40NjIgOS4yM3oiLz48L3N2Zz4%3D" alt="Codex">
+  <img src="https://img.shields.io/badge/Antigravity-00994D?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIxLjc1MSAyMi42MDdjMS4zNCAxLjAwNSAzLjM1LjMzNSAxLjUwOC0xLjUwOEMxNy43MyAxNS43NCAxOC45MDQgMSAxMi4wMzcgMSA1LjE3IDEgNi4zNDIgMTUuNzQuODE1IDIxLjFjLTIuMDEgMi4wMDkuMTY3IDIuNTExIDEuNTA3IDEuNTA2IDUuMTkyLTMuNTE3IDQuODU3LTkuNzE0IDkuNzE1LTkuNzE0IDQuODU3IDAgNC41MjIgNi4xOTcgOS43MTQgOS43MTV6Ii8%2BPC9zdmc%2B" alt="Antigravity">
   <img src="https://img.shields.io/badge/Context7-0B1120?style=for-the-badge" alt="Context7">
   <img src="https://img.shields.io/badge/lean--ctx-0B1120?style=for-the-badge" alt="lean-ctx">
-  <img src="https://img.shields.io/badge/Mockoon-1A1A1A?style=for-the-badge" alt="Mockoon">
+  <img src="https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white" alt="Insomnia">
+  <img src="https://img.shields.io/badge/Mockoon-1A5DFF?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIxIDEyLjc5QTkgOSAwIDEgMSAxMS4yMSAzYTcgNyAwIDAgMCA5Ljc5IDkuNzl6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="Mockoon">
+  <img src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAyLjJoMTAuMkwyMC41IDcuNlYyMS44SDVWMi4yek04IDEwLjJoOHYxLjdIOHptMCAzLjRoOHYxLjdIOHptMCAzLjRoNS40VjE5SDh6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="Microsoft Office">
 </p>
 
-**Sistemas, redes e infraestructura**
+**Sistemas, redes y seguridad**
 
 <p>
-  <img src="https://img.shields.io/badge/WSL-4D4D4D?style=for-the-badge&logo=linux&logoColor=white" alt="WSL">
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu">
-  <img src="https://img.shields.io/badge/VPS_Profesional_Hosting-0F62FE?style=for-the-badge" alt="VPS en Profesional Hosting">
+  <img src="https://img.shields.io/badge/WSL-4D4D4D?style=for-the-badge&logo=linux&logoColor=white" alt="WSL">
+  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEgMWgxMHYxMEgxem0xMiAwaDEwdjEwSDEzek0xIDEzaDEwdjEwSDF6bTEyIDBoMTB2MTBIMTN6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="Windows">
+  <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTguNzUgMS4yNWg2LjV2NC41aC02LjV6TTExLjE1IDUuNzVoMS43djIuMmgtMS43ek0zLjI1IDcuOTVoMTcuNXYxLjdIMy4yNXpNMy45IDkuNjVoMS43VjEzSDMuOXptMTQuNSAwaDEuN1YxM2gtMS43ek0xLjI1IDEzaDd2NS43NWgtN3ptMTQuNSAwaDd2NS43NWgtN3oiLz48L3N2Zz4K" alt="Active Directory">
+  <img src="https://img.shields.io/badge/VPS_Profesional_Hosting-0F62FE?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQgMWgxNmExIDEgMCAwIDEgMSAxdjRhMSAxIDAgMCAxLTEgMUg0YTEgMSAwIDAgMS0xLTFWMmExIDEgMCAwIDEgMS0xbTAgOGgxNmExIDEgMCAwIDEgMSAxdjRhMSAxIDAgMCAxLTEgMUg0YTEgMSAwIDAgMS0xLTF2LTRhMSAxIDAgMCAxIDEtMW0wIDhoMTZhMSAxIDAgMCAxIDEgMXY0YTEgMSAwIDAgMS0xIDFINGExIDEgMCAwIDEtMS0xdi00YTEgMSAwIDAgMSAxLTFNOSA1aDFWM0g5em0wIDhoMXYtMkg5em0wIDhoMXYtMkg5ek01IDN2MmgyVjN6bTAgOHYyaDJ2LTJ6bTAgOHYyaDJ2LTJ6Ii8%2BPC9zdmc%2B" alt="VPS en Profesional Hosting">
   <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache">
-  <img src="https://img.shields.io/badge/HAProxy-106DA9?style=for-the-badge" alt="HAProxy">
+  <img src="https://img.shields.io/badge/WAMP_%2F_XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="WAMP / XAMPP">
+  <img src="https://img.shields.io/badge/Balanceador_de_carga_%28HAProxy%29-106DA9?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTkuNCAxaDUuMnY0LjJIOS40em0xLjggNC4yaDEuNnYyLjRoLTEuNnpNMi42IDcuNmgxOC44djEuNkgyLjZ6TTIuNiA5LjJoMS42djMuNEgyLjZ6bTguNiAwaDEuNnYzLjRoLTEuNnptOC42IDBoMS42djMuNGgtMS42ek0uOCAxMi42aDUuMnY0LjZILjh6bTguNiAwaDUuMnY0LjZIOS40em04LjYgMEgyM3Y0LjZoLTV6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="Balanceador de carga (HAProxy)">
+  <img src="https://img.shields.io/badge/WAF-15803D?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMS41IDMuMiA1djYuOGMwIDUuMiAzLjcgOSA4LjggMTAuNiA1LjEtMS42IDguOC01LjQgOC44LTEwLjZWNVptLTMuNyAxMC42IDIuMiAyLjIgNS42LTUuNiAxLjMgMS4zLTYuOSA2LjktMy41LTMuNXoiLz48L3N2Zz4K" alt="WAF">
   <img src="https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white" alt="pfSense">
   <img src="https://img.shields.io/badge/OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white" alt="OPNsense">
+  <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iOS4yIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS43Ii8%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iNS40IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS43Ii8%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDEyIDE4LjcgNS45QTkuMiA5LjIgMCAwIDEgMjEuMiAxMVoiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxLjciIGZpbGw9IiNmZmYiLz48Y2lyY2xlIGN4PSIxNi42IiBjeT0iOC4xIiByPSIxLjM1IiBmaWxsPSIjZmZmIi8%2BPC9zdmc%2BCg%3D%3D" alt="Nmap">
+  <img src="https://img.shields.io/badge/sqlmap-B91C1C?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOSAzQzUuMTMgMyAyIDQuNTcgMiA2LjV2MTFDMiAxOS40MyA1LjEzIDIxIDkgMjFzNy0xLjU3IDctMy41di0xMUMxNiA0LjU3IDEyLjg3IDMgOSAzbTAgMS44YzIuOSAwIDUuMi43OCA1LjIgMS43UzExLjkgOC4yIDkgOC4yIDMuOCA3LjQyIDMuOCA2LjUgNi4xIDQuOCA5IDQuOCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xNi42IDEwLjRIMTlWOC42TDIzLjIgMTIgMTkgMTUuNHYtMS44aC0yLjR6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="sqlmap">
   <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress">
-  <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge" alt="Active Directory">
 </p>
 
 ---
@@ -166,7 +182,7 @@ Generador automático de presupuestos (ene. 2026 – feb. 2026). El RFP se proce
 <br>
 
 <p>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code">
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIzLjE1IDIuNTg3IDE4LjIxLjIxYTEuNDk0IDEuNDk0IDAgMCAwLTEuNzA1LjI5bC05LjQ2IDguNjMtNC4xMi0zLjEyOGEuOTk5Ljk5OSAwIDAgMC0xLjI3Ni4wNTdMLjMyNyA3LjI2MUExIDEgMCAwIDAgLjMyNiA4Ljc0TDMuODk5IDEyIC4zMjYgMTUuMjZhMSAxIDAgMCAwIC4wMDEgMS40NzlMMS42NSAxNy45NGEuOTk5Ljk5OSAwIDAgMCAxLjI3Ni4wNTdsNC4xMi0zLjEyOCA5LjQ2IDguNjNhMS40OTIgMS40OTIgMCAwIDAgMS43MDQuMjlsNC45NDItMi4zNzdBMS41IDEuNSAwIDAgMCAyNCAyMC4wNlYzLjkzOWExLjUgMS41IDAgMCAwLS44NS0xLjM1MnptLTUuMTQ2IDE0Ljg2MUwxMC44MjYgMTJsNy4xNzgtNS40NDh2MTAuODk2eiIvPjwvc3ZnPg%3D%3D" alt="VS Code">
   <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira">
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka">
