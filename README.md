@@ -96,6 +96,11 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
   <img src="https://img.shields.io/badge/OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white" alt="OPNsense">
   <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iOS4yIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS43Ii8%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iNS40IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS43Ii8%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDEyIDE4LjcgNS45QTkuMiA5LjIgMCAwIDEgMjEuMiAxMVoiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxLjciIGZpbGw9IiNmZmYiLz48Y2lyY2xlIGN4PSIxNi42IiBjeT0iOC4xIiByPSIxLjM1IiBmaWxsPSIjZmZmIi8%2BPC9zdmc%2BCg%3D%3D" alt="Nmap">
   <img src="https://img.shields.io/badge/sqlmap-B91C1C?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOSAzQzUuMTMgMyAyIDQuNTcgMiA2LjV2MTFDMiAxOS40MyA1LjEzIDIxIDkgMjFzNy0xLjU3IDctMy41di0xMUMxNiA0LjU3IDEyLjg3IDMgOSAzbTAgMS44YzIuOSAwIDUuMi43OCA1LjIgMS43UzExLjkgOC4yIDkgOC4yIDMuOCA3LjQyIDMuOCA2LjUgNi4xIDQuOCA5IDQuOCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xNi42IDEwLjRIMTlWOC42TDIzLjIgMTIgMTkgMTUuNHYtMS44aC0yLjR6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="sqlmap">
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite">
+  <img src="https://img.shields.io/badge/OWASP_ZAP-00549E?style=for-the-badge&logo=zap&logoColor=white" alt="OWASP ZAP">
+  <img src="https://img.shields.io/badge/DirBuster-B45309?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIgNi41QTEuNSAxLjUgMCAwIDEgMy41IDVIOWwyIDJoOS41QTEuNSAxLjUgMCAwIDEgMjIgOC41VjExaC0xLjhWOC44aC05LjlsLTItMkgzLjh2MTAuNEgxMFYxOUgzLjVBMS41IDEuNSAwIDAgMSAyIDE3LjV6Ii8%2BPGNpcmNsZSBjeD0iMTYiIGN5PSIxNS41IiByPSIzLjciIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjgiLz48cGF0aCBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMi4xIiBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Im0xOC44IDE4LjMgMi45IDIuOSIvPjwvc3ZnPgo%3D" alt="DirBuster">
+  <img src="https://img.shields.io/badge/VirtualBox-2F61B4?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox">
+  <img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white" alt="VMware">
   <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress">
 </p>
 
@@ -292,6 +297,52 @@ Proxy de seguridad en tiempo de ejecución (RASP) que se sitúa entre los agente
 - **Router**: traduce entre OpenAI y Anthropic y evita que el prompt de sistema se filtre en las respuestas.
 - **Cadena de suministro**: un gateway MCP y un analizador (YARA y Frida) auditan skills y servidores MCP y los bloquean o los ponen en cuarentena.
 - **Modo sombra**: registra sin bloquear para calibrar los umbrales con tráfico real antes de pasar a bloquear. Pensado para cubrir el OWASP Top 10 de aplicaciones agénticas.
+
+</details>
+
+<details>
+<summary><b>Ingeniería inversa con REA</b></summary>
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/REA-1B3A57?style=flat-square" alt="REA">
+  <img src="https://img.shields.io/badge/IA-1C3C3C?style=flat-square" alt="IA">
+  <img src="https://img.shields.io/badge/KeePassXC-6CAC4D?style=flat-square&logo=keepassxc&logoColor=white" alt="KeePassXC">
+  <img src="https://img.shields.io/badge/KDBX-1B3A57?style=flat-square" alt="KDBX">
+  <img src="https://img.shields.io/badge/Criptograf%C3%ADa-1B3A57?style=flat-square" alt="Criptografía">
+</p>
+
+Prueba de REA, una herramienta que permite a un asistente de IA abrir un programa ya compilado y estudiarlo apoyándose en las herramientas clásicas de análisis (oct. 2026). La puse a prueba con KeePassXC, un gestor de contraseñas de código abierto.
+
+- **Sin código fuente**: reconstruí cómo convierte la contraseña maestra en la llave de la base de datos: huella, derivación lenta de la clave, sello de integridad y cifrado.
+- **Acierto medido**: al compararlo después con el código abierto, de 20 conclusiones 18 eran exactas, 2 correctas pero incompletas y ninguna errónea.
+- **kdbxlite**: con lo aprendido creé una aplicación propia que abre, lee y crea bases de datos que el KeePass original acepta, y al revés.
+- **Interfaz web**: abre una caja fuerte, muestra u oculta las contraseñas, crea entradas y explica lo que pasa por dentro en cada paso.
+
+Informe: [Descargar PDF](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/rea-keepass.pdf)
+
+</details>
+
+<details>
+<summary><b>Entornos OWASP: Broken Web Applications y WebGoat</b></summary>
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white" alt="VMware">
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite">
+  <img src="https://img.shields.io/badge/sqlmap-B91C1C?style=flat-square" alt="sqlmap">
+  <img src="https://img.shields.io/badge/DVWA-1B3A57?style=flat-square" alt="DVWA">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
+</p>
+
+Dos prácticas de 2.º de DAW con máquinas vulnerables a propósito, una desde el lado del defensor y otra desde el del atacante.
+
+- **OWASP Broken Web Applications**: montada en VMware, documenté en DVWA el XSS reflejado y el almacenado, la inyección SQL, la inyección SQL a ciegas (explotada con sqlmap hasta sacar el usuario, la base de datos y sus tablas) y la inclusión de archivos local y remota.
+- **Corrección**: en cada una expliqué por qué el código era vulnerable y lo corregí con escape de caracteres, consultas parametrizadas, `allow_url_include` desactivado y una lista blanca. Cierra con un repaso del OWASP Top 10.
+- **WebGoat**: ataqué las mismas vulnerabilidades con Burp Suite: interceptar el login para saltarse el `maxlength` y entrar como administrador, y sacar un nombre carácter a carácter con Intruder y una inyección a ciegas.
+
+Informes: [OWASP BWA (PDF)](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/owasp-bwa.pdf) · [WebGoat (PDF)](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/webgoat.pdf)
 
 </details>
 
