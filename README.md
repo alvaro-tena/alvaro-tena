@@ -51,18 +51,15 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
 **Lenguajes y APIs**
 
 <p>
-  <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" width="48" alt="HTML"></a>
-  <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" width="48" alt="CSS"></a>
-  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" width="48" alt="JavaScript"></a>
-  <a href="https://www.typescriptlang.org"><img src="https://skillicons.dev/icons?i=ts" width="48" alt="TypeScript"></a>
-  <a href="https://react.dev"><img src="https://skillicons.dev/icons?i=react" width="48" alt="React"></a>
-  <a href="https://tailwindcss.com"><img src="https://skillicons.dev/icons?i=tailwind" width="48" alt="Tailwind CSS"></a>
-  <a href="https://nodejs.org"><img src="https://skillicons.dev/icons?i=nodejs" width="48" alt="Node.js"></a>
-  <a href="https://www.php.net"><img src="https://skillicons.dev/icons?i=php" width="48" alt="PHP"></a>
-  <a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=python" width="48" alt="Python"></a>
-</p>
-
-<p>
+  <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"></a>
+  <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white" alt="CSS"></a>
+  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"></a>
+  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a>
+  <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"></a>
+  <a href="https://www.php.net"><img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"></a>
+  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
   <a href="https://docs.python.org/3/library/tkinter.html"><img src="https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMi41IDIuNWgxOXYxOWgtMTl6bTEuOCAxLjh2Mi42aDE1LjRWNC4zem0wIDQuMnYxMS4yaDcuMlY4LjV6bTguOCAwaDYuNnY0LjZoLTYuNnptMCA2LjJoNi42djVoLTYuNnoiLz48L3N2Zz4K" alt="Tkinter"></a>
   <a href="https://insomnia.rest"><img src="https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white" alt="Insomnia"></a>
   <a href="https://mockoon.com"><img src="https://img.shields.io/badge/Mockoon-1A5DFF?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIxIDEyLjc5QTkgOSAwIDEgMSAxMS4yMSAzYTcgNyAwIDAgMCA5Ljc5IDkuNzl6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="Mockoon"></a>
@@ -71,13 +68,10 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
 **Backend**
 
 <p>
-  <a href="https://laravel.com"><img src="https://skillicons.dev/icons?i=laravel" width="48" alt="Laravel"></a>
-  <a href="https://fastapi.tiangolo.com"><img src="https://skillicons.dev/icons?i=fastapi" width="48" alt="FastAPI"></a>
-  <a href="https://flask.palletsprojects.com"><img src="https://skillicons.dev/icons?i=flask" width="48" alt="Flask"></a>
-  <a href="https://wordpress.org"><img src="https://skillicons.dev/icons?i=wordpress" width="48" alt="WordPress"></a>
-</p>
-
-<p>
+  <a href="https://laravel.com"><img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"></a>
+  <a href="https://fastapi.tiangolo.com"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"></a>
+  <a href="https://flask.palletsprojects.com"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"></a>
+  <a href="https://wordpress.org"><img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress"></a>
   <a href="https://gunicorn.org"><img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white" alt="Gunicorn"></a>
   <a href="https://www.wildfly.org"><img src="https://img.shields.io/badge/WildFly-B8730A?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTExIDkuNUM5IDUgNS42IDMgMi41IDMuNmMtLjQgMy42IDEuNiA2LjYgNS41IDcuNC0zLjIuOC00LjYgMy00LjIgNS42IDIuNi41IDUuNi0xIDctNC40em0yIDBDMTUgNSAxOC40IDMgMjEuNSAzLjZjLjQgMy42LTEuNiA2LjYtNS41IDcuNCAzLjIuOCA0LjYgMyA0LjIgNS42LTIuNi41LTUuNi0xLTctNC40eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMSA4LjZoMlYyMGExIDEgMCAwIDEtMiAweiIvPjxwYXRoIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsbD0ibm9uZSIgZD0iTTExLjQgOC40IDkuNiA1LjJtMyAzLjIgMS44LTMuMiIvPjwvc3ZnPgo%3D&logoColor=white" alt="WildFly"></a>
 </p>
@@ -85,15 +79,12 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
 **Bases de datos**
 
 <p>
-  <a href="https://www.mysql.com"><img src="https://skillicons.dev/icons?i=mysql" width="48" alt="MySQL"></a>
-  <a href="https://www.postgresql.org"><img src="https://skillicons.dev/icons?i=postgres" width="48" alt="PostgreSQL"></a>
-  <a href="https://www.sqlite.org"><img src="https://skillicons.dev/icons?i=sqlite" width="48" alt="SQLite"></a>
-  <a href="https://www.mongodb.com"><img src="https://skillicons.dev/icons?i=mongodb" width="48" alt="MongoDB"></a>
-  <a href="https://redis.io"><img src="https://skillicons.dev/icons?i=redis" width="48" alt="Redis"></a>
-  <a href="https://supabase.com"><img src="https://skillicons.dev/icons?i=supabase" width="48" alt="Supabase"></a>
-</p>
-
-<p>
+  <a href="https://www.mysql.com"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"></a>
+  <a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
+  <a href="https://www.sqlite.org"><img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"></a>
+  <a href="https://www.mongodb.com"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a>
+  <a href="https://redis.io"><img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"></a>
+  <a href="https://supabase.com"><img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"></a>
   <a href="https://qdrant.tech"><img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white" alt="Qdrant"></a>
 </p>
 
@@ -120,19 +111,16 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
 **Editores y herramientas**
 
 <p>
-  <a href="https://git-scm.com"><img src="https://skillicons.dev/icons?i=git" width="48" alt="Git"></a>
-  <a href="https://github.com"><img src="https://skillicons.dev/icons?i=github" width="48" alt="GitHub"></a>
-  <a href="https://maven.apache.org"><img src="https://skillicons.dev/icons?i=maven" width="48" alt="Maven"></a>
-</p>
-
-<p>
+  <a href="https://git-scm.com"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+  <a href="https://github.com"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://maven.apache.org"><img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven"></a>
   <a href="https://claude.com/code"><img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code"></a>
   <a href="https://cursor.com"><img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"></a>
   <a href="https://opencode.ai"><img src="https://img.shields.io/badge/OpenCode-211E1E?style=for-the-badge&logo=opencode&logoColor=white" alt="OpenCode"></a>
   <a href="https://openai.com/codex"><img src="https://img.shields.io/badge/Codex-3B5BDB?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTkuMDY0IDMuMzQ0YTQuNTc4IDQuNTc4IDAgMDEyLjI4NS0uMzEyYzEgLjExNSAxLjg5MS41NCAyLjY3MyAxLjI3NS4wMS4wMS4wMjQuMDE3LjAzNy4wMjFhLjA5LjA5IDAgMDAuMDQzIDAgNC41NSA0LjU1IDAgMDEzLjA0Ni4yNzVsLjA0Ny4wMjIuMTE2LjA1N2E0LjU4MSA0LjU4MSAwIDAxMi4xODggMi4zOTljLjIwOS41MS4zMTMgMS4wNDEuMzE1IDEuNTk1YTQuMjQgNC4yNCAwIDAxLS4xMzQgMS4yMjMuMTIzLjEyMyAwIDAwLjAzLjExNWMuNTk0LjYwNy45ODggMS4zMyAxLjE4MyAyLjE3LjI4OSAxLjQyNS0uMDA3IDIuNzEtLjg4NyAzLjg1NGwtLjEzNi4xNjZhNC41NDggNC41NDggMCAwMS0yLjIwMSAxLjM4OC4xMjMuMTIzIDAgMDAtLjA4MS4wNzZjLS4xOTEuNTUxLS4zODMgMS4wMjMtLjc0IDEuNDk0LS45IDEuMTg3LTIuMjIyIDEuODQ2LTMuNzExIDEuODM4LTEuMTg3LS4wMDYtMi4yMzktLjQ0LTMuMTU3LTEuMzAyYS4xMDcuMTA3IDAgMDAtLjEwNS0uMDI0Yy0uMzg4LjEyNS0uNzguMTQzLTEuMjA0LjEzOGE0LjQ0MSA0LjQ0MSAwIDAxLTEuOTQ1LS40NjYgNC41NDQgNC41NDQgMCAwMS0xLjYxLTEuMzM1Yy0uMTUyLS4yMDItLjMwMy0uMzkyLS40MTQtLjYxN2E1LjgxIDUuODEgMCAwMS0uMzctLjk2MSA0LjU4MiA0LjU4MiAwIDAxLS4wMTQtMi4yOTguMTI0LjEyNCAwIDAwLjAwNi0uMDU2LjA4NS4wODUgMCAwMC0uMDI3LS4wNDggNC40NjcgNC40NjcgMCAwMS0xLjAzNC0xLjY1MSAzLjg5NiAzLjg5NiAwIDAxLS4yNTEtMS4xOTIgNS4xODkgNS4xODkgMCAwMS4xNDEtMS42Yy4zMzctMS4xMTIuOTgyLTEuOTg1IDEuOTMzLTIuNjE4LjIxMi0uMTQxLjQxMy0uMjUxLjYwMS0uMzMuMjE1LS4wODkuNDMtLjE2NC42NDYtLjIyN2EuMDk4LjA5OCAwIDAwLjA2NS0uMDY2IDQuNTEgNC41MSAwIDAxLjgyOS0xLjYxNSA0LjUzNSA0LjUzNSAwIDAxMS44MzctMS4zODh6bTMuNDgyIDEwLjU2NWEuNjM3LjYzNyAwIDAwMCAxLjI3MmgzLjYzNmEuNjM3LjYzNyAwIDEwMC0xLjI3MmgtMy42MzZ6TTguNDYyIDkuMjNhLjYzNy42MzcgMCAwMC0xLjEwNi42MzFsMS4yNzIgMi4yMjQtMS4yNjYgMi4xMzZhLjYzNi42MzYgMCAxMDEuMDk1LjY0OWwxLjQ1NC0yLjQ1NWEuNjM2LjYzNiAwIDAwLjAwNS0uNjRMOC40NjIgOS4yM3oiLz48L3N2Zz4%3D" alt="Codex"></a>
   <a href="https://antigravity.google"><img src="https://img.shields.io/badge/Antigravity-00994D?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIxLjc1MSAyMi42MDdjMS4zNCAxLjAwNSAzLjM1LjMzNSAxLjUwOC0xLjUwOEMxNy43MyAxNS43NCAxOC45MDQgMSAxMi4wMzcgMSA1LjE3IDEgNi4zNDIgMTUuNzQuODE1IDIxLjFjLTIuMDEgMi4wMDkuMTY3IDIuNTExIDEuNTA3IDEuNTA2IDUuMTkyLTMuNTE3IDQuODU3LTkuNzE0IDkuNzE1LTkuNzE0IDQuODU3IDAgNC41MjIgNi4xOTcgOS43MTQgOS43MTV6Ii8%2BPC9zdmc%2B" alt="Antigravity"></a>
-  <a href="https://context7.com"><img src="https://img.shields.io/badge/Context7-0B1120?style=for-the-badge" alt="Context7"></a>
-  <a href="https://github.com/yvgude/lean-ctx"><img src="https://img.shields.io/badge/lean--ctx-0B1120?style=for-the-badge" alt="lean-ctx"></a>
+  <a href="https://context7.com"><img src="https://img.shields.io/badge/Context7-0B1120?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQgM2gxMWw1IDV2MTNINHptMiAydjE0aDEyVjloLTRWNXptMiA2aDh2MS44SDh6bTAgMy41aDh2MS44SDh6Ii8%2BPC9zdmc%2B&logoColor=white" alt="Context7"></a>
+  <a href="https://github.com/yvgude/lean-ctx"><img src="https://img.shields.io/badge/lean--ctx-0B1120?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMgNGgxOHYyLjVIM3ptMyA1LjVoMTJWMTJINnptMyA1LjVoNnYyLjVIOXpNMTEgMTloMnYyaC0yeiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="lean-ctx"></a>
   <a href="https://trello.com"><img src="https://img.shields.io/badge/Trello-0079BF?style=for-the-badge&logo=trello&logoColor=white" alt="Trello"></a>
   <a href="https://www.microsoft.com/microsoft-365"><img src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAyLjJoMTAuMkwyMC41IDcuNlYyMS44SDVWMi4yek04IDEwLjJoOHYxLjdIOHptMCAzLjRoOHYxLjdIOHptMCAzLjRoNS40VjE5SDh6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="Microsoft Office"></a>
 </p>
@@ -140,12 +128,9 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
 **Redes y servidores**
 
 <p>
-  <a href="https://nginx.org"><img src="https://skillicons.dev/icons?i=nginx" width="48" alt="Nginx"></a>
-  <a href="https://www.cloudflare.com"><img src="https://skillicons.dev/icons?i=cloudflare" width="48" alt="Cloudflare"></a>
-  <a href="https://aws.amazon.com"><img src="https://skillicons.dev/icons?i=aws" width="48" alt="AWS"></a>
-</p>
-
-<p>
+  <a href="https://nginx.org"><img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx"></a>
+  <a href="https://www.cloudflare.com"><img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare"></a>
+  <a href="https://aws.amazon.com"><img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij48ZyBmaWxsPSJub25lIj48cmVjdCBmaWxsPSIjZmZmIiByeD0iNjAiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNODQuNzQ1IDExMS45NjFjMCAyLjQzNC4yNjMgNC40MDcuNzIzIDUuODU1YTM1IDM1IDAgMCAwIDIuMTA2IDQuNzM3Yy4zMjkuNTI2LjQ2IDEuMDUyLjQ2IDEuNTEzYzAgLjY1OC0uMzk1IDEuMzE2LTEuMjUgMS45NzNsLTQuMTQ1IDIuNzY0Yy0uNTkyLjM5NC0xLjE4NC41OTItMS43MS41OTJjLS42NTggMC0xLjMxNi0uMzI5LTEuOTc0LS45MjFhMjAuNCAyMC40IDAgMCAxLTIuMzY4LTMuMDkyYTUxIDUxIDAgMCAxLTIuMDQtMy44ODJxLTcuNjk3IDkuMDgtMTkuMzQyIDkuMDc5Yy01LjUyNiAwLTkuOTM0LTEuNTc5LTEzLjE1OC00LjczN2MtMy4yMjMtMy4xNTgtNC44NjgtNy4zNjgtNC44NjgtMTIuNjMxYzAtNS41OTMgMS45NzQtMTAuMTMyIDUuOTg3LTEzLjU1M3M5LjM0Mi01LjEzMiAxNi4xMTgtNS4xMzJjMi4yMzcgMCA0LjU0LjE5OCA2Ljk3NC41MjdzNC45MzQuODU1IDcuNTY2IDEuNDQ3di00LjgwM2MwLTUtMS4wNTMtOC40ODctMy4wOTItMTAuNTI2Yy0yLjEwNi0yLjA0LTUuNjU4LTMuMDI2LTEwLjcyNC0zLjAyNmMtMi4zMDMgMC00LjY3MS4yNjMtNy4xMDUuODU1cy00LjgwMyAxLjMxNi03LjEwNiAyLjIzN2ExOSAxOSAwIDAgMS0yLjMwMi44NTVjLS40Ni4xMzItLjc5LjE5OC0xLjA1My4xOThjLS45MiAwLTEuMzgyLS42NTgtMS4zODItMi4wNHYtMy4yMjRjMC0xLjA1Mi4xMzItMS44NDIuNDYxLTIuMzAycy45MjEtLjkyMSAxLjg0Mi0xLjM4MnEzLjQ1NC0xLjc3NiA4LjI5LTIuOTZjMy4yMjMtLjg1NiA2LjY0NC0xLjI1IDEwLjI2My0xLjI1YzcuODI5IDAgMTMuNTUyIDEuNzc2IDE3LjIzNyA1LjMyOGMzLjYxOCAzLjU1MyA1LjQ2IDguOTQ4IDUuNDYgMTYuMTg1djIxLjMxNnptLTI2LjcxIDEwYzIuMTcgMCA0LjQwNy0uMzk1IDYuNzc2LTEuMTg1YzIuMzY4LS43ODkgNC40NzMtMi4yMzcgNi4yNS00LjIxYzEuMDUyLTEuMjUgMS44NDItMi42MzIgMi4yMzYtNC4yMTFzLjY1OC0zLjQ4Ny42NTgtNS43MjN2LTIuNzY0YTU1IDU1IDAgMCAwLTYuMDUyLTEuMTE4YTUwIDUwIDAgMCAwLTYuMTg1LS4zOTVjLTQuNDA4IDAtNy42MzEuODU2LTkuODAyIDIuNjMycy0zLjIyNCA0LjI3Ni0zLjIyNCA3LjU2NmMwIDMuMDkyLjc5IDUuMzk0IDIuNDM0IDYuOTczYzEuNTggMS42NDUgMy44ODIgMi40MzUgNi45MDggMi40MzVtNTIuODI4IDcuMTA1Yy0xLjE4NCAwLTEuOTc0LS4xOTgtMi41LS42NThjLS41MjYtLjM5NS0uOTg3LTEuMzE2LTEuMzgxLTIuNTY2bC0xNS40Ni01MC44NTVjLS4zOTYtMS4zMTYtLjU5My0yLjE3MS0uNTkzLTIuNjMyYzAtMS4wNTIuNTI2LTEuNjQ1IDEuNTc5LTEuNjQ1aDYuNDQ3YzEuMjUgMCAyLjEwNi4xOTggMi41NjYuNjU4Yy41MjYuMzk1LjkyMSAxLjMxNiAxLjMxNiAyLjU2NmwxMS4wNTIgNDMuNTUzbDEwLjI2NC00My41NTNjLjMyOS0xLjMxNi43MjMtMi4xNyAxLjI1LTIuNTY2Yy41MjYtLjM5NCAxLjQ0Ny0uNjU3IDIuNjMxLS42NTdoNS4yNjNjMS4yNSAwIDIuMTA2LjE5NyAyLjYzMi42NTdjLjUyNi4zOTUuOTg3IDEuMzE2IDEuMjUgMi41NjZsMTAuMzk1IDQ0LjA3OWwxMS4zODEtNDQuMDc5Yy4zOTUtMS4zMTYuODU2LTIuMTcgMS4zMTYtMi41NjZjLjUyNi0uMzk0IDEuMzgyLS42NTcgMi41NjYtLjY1N2g2LjExOGMxLjA1MyAwIDEuNjQ1LjUyNiAxLjY0NSAxLjY0NGMwIC4zMy0uMDY2LjY1OC0uMTMyIDEuMDUzYy0uMDY1LjM5NS0uMTk3LjkyLS40NiAxLjY0NWwtMTUuODU1IDUwLjg1NXEtLjU5MyAxLjk3NC0xLjM4MiAyLjU2NmMtLjUyNi4zOTQtMS4zODIuNjU4LTIuNS42NThoLTUuNjU4Yy0xLjI1IDAtMi4xMDUtLjE5OC0yLjYzMS0uNjU4Yy0uNTI3LS40NjEtLjk4Ny0xLjMxNi0xLjI1LTIuNjMybC0xMC4xOTgtNDIuNDM0bC0xMC4xMzEgNDIuMzY4Yy0uMzI5IDEuMzE2LS43MjQgMi4xNzEtMS4yNSAyLjYzMmMtLjUyNy40Ni0xLjQ0OC42NTgtMi42MzIuNjU4em04NC41NCAxLjc3NmMtMy40MjEgMC02Ljg0Mi0uMzk1LTEwLjEzMi0xLjE4NGMtMy4yODktLjc5LTUuODU1LTEuNjQ1LTcuNTY2LTIuNjMyYy0xLjA1Mi0uNTkyLTEuNzc2LTEuMjUtMi4wMzktMS44NDJhNC42NSA0LjY1IDAgMCAxLS4zOTUtMS44NDJ2LTMuMzU1YzAtMS4zODIuNTI2LTIuMDQgMS41MTMtMi4wNHEuNTkzIDAgMS4xODQuMTk4Yy4zOTUuMTMxLjk4Ny4zOTQgMS42NDUuNjU4YTM1LjggMzUuOCAwIDAgMCA3LjIzNyAyLjMwMmEzOS41IDM5LjUgMCAwIDAgNy44MjkuNzljNC4xNDUgMCA3LjM2OC0uNzI0IDkuNjA1LTIuMTcxYzIuMjM3LTEuNDQ4IDMuNDIxLTMuNTUzIDMuNDIxLTYuMjVjMC0xLjg0Mi0uNTkyLTMuMzU2LTEuNzc2LTQuNjA2cy0zLjQyMS0yLjM2OC02LjY0NS0zLjQyMWwtOS41MzktMi45NmMtNC44MDMtMS41MTMtOC4zNTYtMy43NS0xMC41MjctNi43MWMtMi4xNzEtMi44OTUtMy4yODktNi4xMi0zLjI4OS05LjU0cTAtNC4xNDQgMS43NzYtNy4zMDNjMS4xODQtMi4xMDUgMi43NjMtMy45NDcgNC43MzctNS4zOTRjMS45NzQtMS41MTQgNC4yMTEtMi42MzIgNi44NDItMy40MjJjMi42MzItLjc5IDUuMzk1LTEuMTE4IDguMjktMS4xMThjMS40NDcgMCAyLjk2LjA2NiA0LjQwOC4yNjNjMS41MTMuMTk3IDIuODk0LjQ2IDQuMjc2LjcyNGMxLjMxNi4zMjkgMi41NjYuNjU4IDMuNzUgMS4wNTNxMS43NzYuNTkxIDIuNzYzIDEuMTg0Yy45MjEuNTI2IDEuNTc5IDEuMDUyIDEuOTc0IDEuNjQ0cS41OTIuNzkuNTkyIDIuMTcydjMuMDkyYzAgMS4zODEtLjUyNiAyLjEwNS0xLjUxMyAyLjEwNWMtLjUyNyAwLTEuMzgyLS4yNjMtMi41LS43OXEtNS42MjUtMi41NjUtMTIuNjMyLTIuNTY1Yy0zLjc1IDAtNi43MS41OTItOC43NSAxLjg0MnMtMy4wOTIgMy4xNTgtMy4wOTIgNS44NTVjMCAxLjg0Mi42NTggMy40MjEgMS45NzQgNC42NzFzMy43NSAyLjUgNy4yMzcgMy42MThsOS4zNDIgMi45NmM0LjczNiAxLjUxNCA4LjE1OCAzLjYxOSAxMC4xOTcgNi4zMTdzMy4wMjYgNS43ODkgMy4wMjYgOS4yMWMwIDIuODI5LS41OTIgNS4zOTUtMS43MSA3LjYzMmMtMS4xODQgMi4yMzctMi43NjMgNC4yMS00LjgwMyA1Ljc4OWMtMi4wMzkgMS42NDUtNC40NzQgMi44MjktNy4zMDIgMy42ODVjLTIuOTYxLjkyMS02LjA1MyAxLjM4MS05LjQwOCAxLjM4MSIvPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIwNy44MzcgMTYyLjgxNmMtMjEuNjQ1IDE1Ljk4Ny01My4wOTIgMjQuNDc0LTgwLjEzMiAyNC40NzRjLTM3Ljg5NCAwLTcyLjA0LTE0LjAxNC05Ny44MjktMzcuMzAzYy0yLjA0LTEuODQyLS4xOTctNC4zNDIgMi4yMzctMi44OTVjMjcuODk1IDE2LjE4NCA2Mi4zMDMgMjUuOTg3IDk3Ljg5NSAyNS45ODdjMjQuMDEzIDAgNTAuMzk1LTUgNzQuNjcxLTE1LjI2M2MzLjYxOC0xLjY0NSA2LjcxIDIuMzY4IDMuMTU4IDUiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIxNi44NSAxNTIuNTUzYy0yLjc2My0zLjU1My0xOC4yODktMS43MTEtMjUuMzI5LS44NTZjLTIuMTA1LjI2NC0yLjQzNC0xLjU3OS0uNTI2LTIuOTZjMTIuMzY4LTguNjg0IDMyLjY5Ny02LjE4NCAzNS4wNjYtMy4yOWMyLjM2OCAyLjk2MS0uNjU4IDIzLjI5LTEyLjIzNyAzMy4wMjdjLTEuNzc3IDEuNTEzLTMuNDg3LjcyMy0yLjY5OC0xLjI1YzIuNjMyLTYuNTEzIDguNDg3LTIxLjE4NSA1LjcyNC0yNC42NzEiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvZz48L3N2Zz4%3D&logoColor=white" alt="AWS"></a>
   <a href="https://www.profesionalhosting.com"><img src="https://img.shields.io/badge/VPS_Profesional_Hosting-0F62FE?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQgMWgxNmExIDEgMCAwIDEgMSAxdjRhMSAxIDAgMCAxLTEgMUg0YTEgMSAwIDAgMS0xLTFWMmExIDEgMCAwIDEgMS0xbTAgOGgxNmExIDEgMCAwIDEgMSAxdjRhMSAxIDAgMCAxLTEgMUg0YTEgMSAwIDAgMS0xLTF2LTRhMSAxIDAgMCAxIDEtMW0wIDhoMTZhMSAxIDAgMCAxIDEgMXY0YTEgMSAwIDAgMS0xIDFINGExIDEgMCAwIDEtMS0xdi00YTEgMSAwIDAgMSAxLTFNOSA1aDFWM0g5em0wIDhoMXYtMkg5em0wIDhoMXYtMkg5ek01IDN2MmgyVjN6bTAgOHYyaDJ2LTJ6bTAgOHYyaDJ2LTJ6Ii8%2BPC9zdmc%2B" alt="VPS en Profesional Hosting"></a>
   <a href="https://httpd.apache.org"><img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache"></a>
   <a href="https://www.apachefriends.org"><img src="https://img.shields.io/badge/WAMP_%2F_XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="WAMP / XAMPP"></a>
@@ -183,15 +168,12 @@ resolver vulnerabilidades (SQLi, XSS, LFI) hasta configurar proxys inversos, WAF
 **Sistemas y hardware**
 
 <p>
-  <a href="https://www.kernel.org"><img src="https://skillicons.dev/icons?i=linux" width="48" alt="Linux"></a>
-  <a href="https://ubuntu.com"><img src="https://skillicons.dev/icons?i=ubuntu" width="48" alt="Ubuntu"></a>
-  <a href="https://www.debian.org"><img src="https://skillicons.dev/icons?i=debian" width="48" alt="Debian"></a>
-  <a href="https://www.microsoft.com/windows"><img src="https://skillicons.dev/icons?i=windows" width="48" alt="Windows"></a>
-  <a href="https://www.docker.com"><img src="https://skillicons.dev/icons?i=docker" width="48" alt="Docker"></a>
-  <a href="https://www.raspberrypi.com"><img src="https://skillicons.dev/icons?i=raspberrypi" width="48" alt="Raspberry Pi"></a>
-</p>
-
-<p>
+  <a href="https://www.kernel.org"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"></a>
+  <a href="https://ubuntu.com"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu"></a>
+  <a href="https://www.debian.org"><img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian"></a>
+  <a href="https://www.microsoft.com/windows"><img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEgMWgxMHYxMEgxem0xMiAwaDEwdjEwSDEzek0xIDEzaDEwdjEwSDF6bTEyIDBoMTB2MTBIMTN6Ii8%2BPC9zdmc%2BDQo%3D&logoColor=white" alt="Windows"></a>
+  <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+  <a href="https://www.raspberrypi.com"><img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi"></a>
   <a href="https://learn.microsoft.com/windows/wsl/"><img src="https://img.shields.io/badge/WSL-4D4D4D?style=for-the-badge&logo=linux&logoColor=white" alt="WSL"></a>
   <a href="https://learn.microsoft.com/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview"><img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTguNzUgMS4yNWg2LjV2NC41aC02LjV6TTExLjE1IDUuNzVoMS43djIuMmgtMS43ek0zLjI1IDcuOTVoMTcuNXYxLjdIMy4yNXpNMy45IDkuNjVoMS43VjEzSDMuOXptMTQuNSAwaDEuN1YxM2gtMS43ek0xLjI1IDEzaDd2NS43NWgtN3ptMTQuNSAwaDd2NS43NWgtN3oiLz48L3N2Zz4K" alt="Active Directory"></a>
   <a href="https://www.virtualbox.org"><img src="https://img.shields.io/badge/VirtualBox-2F61B4?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox"></a>

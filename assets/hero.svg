@@ -75,9 +75,10 @@
 </g>
 <rect x="1" y="1" width="1198" height="418" rx="17" fill="none" stroke="#fff" stroke-opacity=".08"/>
 <g transform="translate(70 0)">
-  <text class="m rise" x="0" y="138" font-size="17" fill="#34d399">&gt; hola, soy<tspan class="cursor" dx="4">_</tspan></text>
+  <text class="m rise" x="0" y="138" font-size="17" fill="#34d399">&gt; Hola! soy<tspan class="cursor" dx="4">_</tspan></text>
   <text class="n rise d1" x="-2" y="212" font-size="58" font-weight="800" fill="#f3f6fb" letter-spacing="-1">Álvaro Tena García</text>
   <text class="n rise d2" x="0" y="256" font-size="21" fill="#e9eef6" fill-opacity=".92">Ingeniero de software en Softtek · Córdoba, España</text>
-  <g transform="translate(0 284)"><g class="rise d3"><g transform="translate(0 0)"><rect width="246" height="34" rx="17.0" fill="#05070c"/><rect width="246" height="34" rx="17.0" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".45"/><text class="m" x="123.0" y="22.0" font-size="14" fill="#34d399" text-anchor="middle" textLength="210" lengthAdjust="spacingAndGlyphs">Desarrollo web full stack</text></g><g transform="translate(258 0)"><rect width="229" height="34" rx="17.0" fill="#05070c"/><rect width="229" height="34" rx="17.0" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".45"/><text class="m" x="114.5" y="22.0" font-size="14" fill="#a78bfa" text-anchor="middle" textLength="193" lengthAdjust="spacingAndGlyphs">Inteligencia Artificial</text></g><g transform="translate(499 0)"><rect width="154" height="34" rx="17.0" fill="#05070c"/><rect width="154" height="34" rx="17.0" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".45"/><text class="m" x="77.0" y="22.0" font-size="14" fill="#34d399" text-anchor="middle" textLength="118" lengthAdjust="spacingAndGlyphs">Ciberseguridad</text></g></g></g>
+  <text class="n rise d3" x="0" y="302" font-size="19" fill="#9aa7b8">Me muevo entre el desarrollo web full stack,</text>
+  <text class="n rise d4" x="0" y="328" font-size="19" fill="#9aa7b8">la inteligencia artificial y la ciberseguridad.</text>
 </g>
 </svg>
