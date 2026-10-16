@@ -62,10 +62,12 @@
 </g>
 <rect x="1.5" y="1.5" width="717" height="745" rx="27" fill="none" stroke="#fff" stroke-opacity=".1"/>
 <g transform="translate(48 0)">
-  <text class="m" x="0" y="400" font-size="26" fill="#34d399">&gt; hola, soy<tspan class="cursor" dx="6">_</tspan></text>
+  <text class="m" x="0" y="400" font-size="26" fill="#34d399">&gt; Hola! soy<tspan class="cursor" dx="6">_</tspan></text>
   <text class="n" x="-2" y="468" font-size="60" font-weight="800" fill="#f3f6fb" letter-spacing="-1">Álvaro Tena García</text>
   <text class="n" x="0" y="524" font-size="30" fill="#e9eef6" fill-opacity=".92">Ingeniero de software en Softtek</text>
   <text class="n" x="0" y="564" font-size="30" fill="#e9eef6" fill-opacity=".92">Córdoba, España</text>
-  <g transform="translate(0 594)"><g transform="translate(0 0)"><rect width="359" height="48" rx="24.0" fill="#05070c"/><rect width="359" height="48" rx="24.0" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".45"/><text class="m" x="179.5" y="31.6" font-size="21" fill="#34d399" text-anchor="middle" textLength="315" lengthAdjust="spacingAndGlyphs">Desarrollo web full stack</text></g><g transform="translate(0 62)"><rect width="334" height="48" rx="24.0" fill="#05070c"/><rect width="334" height="48" rx="24.0" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".45"/><text class="m" x="167.0" y="31.6" font-size="21" fill="#a78bfa" text-anchor="middle" textLength="290" lengthAdjust="spacingAndGlyphs">Inteligencia Artificial</text></g><g transform="translate(348 62)"><rect width="220" height="48" rx="24.0" fill="#05070c"/><rect width="220" height="48" rx="24.0" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".45"/><text class="m" x="110.0" y="31.6" font-size="21" fill="#34d399" text-anchor="middle" textLength="176" lengthAdjust="spacingAndGlyphs">Ciberseguridad</text></g></g>
+  <text class="n" x="0" y="622" font-size="26" fill="#9aa7b8">Me muevo entre el desarrollo web</text>
+  <text class="n" x="0" y="658" font-size="26" fill="#9aa7b8">full stack, la inteligencia artificial</text>
+  <text class="n" x="0" y="694" font-size="26" fill="#9aa7b8">y la ciberseguridad.</text>
 </g>
 </svg>
