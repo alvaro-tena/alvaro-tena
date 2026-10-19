@@ -250,7 +250,7 @@ que permite auditar la base de datos MySQL preguntando en lenguaje natural.
   <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"></a>
 </p>
 
-Generador automático de presupuestos (ene. 2026 – feb. 2026). El RFP se procesa y los embeddings quedan guardados para analizar el contexto y la complejidad de cada funcionalidad. En la web se elige el proyecto y el presupuesto completo sale al instante.
+Generador automático de presupuestos. El RFP se procesa y los embeddings quedan guardados para analizar el contexto y la complejidad de cada funcionalidad. En la web se elige el proyecto y el presupuesto completo sale al instante.
 
 - **Desglose técnico**: épicas y tareas separadas en frontend y backend.
 - **Equipo y costes**: equipo recomendado (PM, QA y desarrollo) y coste a partir de las horas.
@@ -271,7 +271,7 @@ Generador automático de presupuestos (ene. 2026 – feb. 2026). El RFP se proce
   <a href="https://git-scm.com"><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"></a>
 </p>
 
-Sistema de QA inteligente (mar. 2026 – may. 2026). Asistente dentro de VS Code para buscar, preparar y reservar datos de prueba, en vez de pelearse con las bases de datos a mano.
+Sistema de QA inteligente. Asistente dentro de VS Code para buscar, preparar y reservar datos de prueba, en vez de pelearse con las bases de datos a mano.
 
 - **De principio a fin**: lee los requisitos en Jira y comprueba que las APIs del entorno UAT están listas.
 - **Reserva inteligente**: localiza los datos y crea bloqueos temporales para que nadie más los pise.
@@ -345,7 +345,7 @@ webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
   <a href="https://learn.microsoft.com/windows/win32/apiindex/windows-api-list"><img src="https://img.shields.io/badge/Windows_API-0078D4?style=flat-square" alt="Windows API"></a>
 </p>
 
-Asistente de voz que corre en local y deja el entorno de trabajo listo (sep. 2026 – oct. 2026). No escribe ni modifica el código de las aplicaciones: mueve ventanas, arranca Docker, lee los logs, opera Git, abre aplicaciones y deja un informe para que el editor haga el cambio. Se le habla diciendo «alvi» en cualquier punto de la frase.
+Asistente de voz que corre en local y deja el entorno de trabajo listo. No escribe ni modifica el código de las aplicaciones: mueve ventanas, arranca Docker, lee los logs, opera Git, abre aplicaciones y deja un informe para que el editor haga el cambio. Se le habla diciendo «alvi» en cualquier punto de la frase.
 
 - **Modelo local y acotado**: Gemma 4 en Ollama, en la GPU del propio PC, con medio segundo por turno. Solo puede llamar a funciones cerradas: sin shell libre y sin rutas, únicamente proyectos declarados.
 - **Acciones con permiso**: matar un puerto, hacer commit o push exige un verbo explícito; una pregunta no autoriza nada. Una frase puede traer varias órdenes y se ejecutan en el orden dicho.
@@ -370,7 +370,7 @@ Asistente de voz que corre en local y deja el entorno de trabajo listo (sep. 202
   <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-1C3C3C?style=flat-square" alt="MCP"></a>
 </p>
 
-Proxy de seguridad en tiempo de ejecución (RASP) que se sitúa entre los agentes de IA y el proveedor del modelo (sep. 2026). Funciona como un antivirus para agentes: intercepta el tráfico, compara el significado de los prompts con firmas de ataque y vigila los flujos tóxicos de cada sesión.
+Proxy de seguridad en tiempo de ejecución (RASP) que se sitúa entre los agentes de IA y el proveedor del modelo. Funciona como un antivirus para agentes: intercepta el tráfico, compara el significado de los prompts con firmas de ataque y vigila los flujos tóxicos de cada sesión.
 
 - **Filtro de entrada**: un modelo local de intención (Prompt-Guard y Llama Guard 3) decide si cada petición pasa; si no responde, bloquea.
 - **Proxy ligero sin Docker**: un binario en Go con ONNX Runtime bloquea credenciales, busca firmas de ataque por embeddings y pasa un clasificador de inyección de prompts.
@@ -392,7 +392,7 @@ Proxy de seguridad en tiempo de ejecución (RASP) que se sitúa entre los agente
   <img src="https://img.shields.io/badge/Criptograf%C3%ADa-1B3A57?style=flat-square" alt="Criptografía">
 </p>
 
-Prueba de REA, una herramienta que permite a un asistente de IA abrir un programa ya compilado y estudiarlo apoyándose en las herramientas clásicas de análisis (oct. 2026). La puse a prueba con KeePassXC, un gestor de contraseñas de código abierto.
+Prueba de REA, una herramienta que permite a un asistente de IA abrir un programa ya compilado y estudiarlo apoyándose en las herramientas clásicas de análisis. La puse a prueba con KeePassXC, un gestor de contraseñas de código abierto.
 
 - **Sin código fuente**: reconstruí cómo convierte la contraseña maestra en la llave de la base de datos: huella, derivación lenta de la clave, sello de integridad y cifrado.
 - **Acierto medido**: al compararlo después con el código abierto, de 20 conclusiones 18 eran exactas, 2 correctas pero incompletas y ninguna errónea.
