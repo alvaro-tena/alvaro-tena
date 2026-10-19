@@ -330,7 +330,7 @@ webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
 </details>
 
 <details>
-<summary><b>Alvi - Mi Asistente Virtual</b></summary>
+<summary><b>Alvi, Mi Asistente Personal</b></summary>
 <br>
 
 <p>
