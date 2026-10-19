@@ -1,8 +1,8 @@
 <!-- Banner animado: versión vertical en pantallas estrechas, horizontal en el resto -->
 <p align="center">
   <picture>
-    <source media="(max-width: 700px)" srcset="./assets/portada-movil.svg">
-    <img src="./assets/portada.svg" alt="Álvaro Tena García — Ingeniero de software en Softtek · Córdoba, España. Desarrollo web full stack, Inteligencia Artificial y Ciberseguridad." width="100%">
+    <source media="(max-width: 700px)" srcset="./assets/cabecera-movil.svg">
+    <img src="./assets/cabecera.svg" alt="Álvaro Tena García — Ingeniero de software en Softtek · Córdoba, España. Desarrollo web full stack, Ciberseguridad e Inteligencia Artificial." width="100%">
   </picture>
 </p>
 
