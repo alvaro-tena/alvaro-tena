@@ -242,7 +242,7 @@ que permite auditar la base de datos MySQL preguntando en lenguaje natural.
 </details>
 
 <details>
-<summary><b>Generador de Presupuesto Automático con IA</b></summary>
+<summary><b>Generador de Presupuestos con IA</b></summary>
 <br>
 
 <p>
