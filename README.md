@@ -322,10 +322,16 @@ Arquitectura de extremo a extremo para reembolsos médicos que junta OCR multimo
   <a href="https://react.dev"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"></a>
 </p>
 
-Arquitectura modular construida con **n8n** y **Google Gemini**. Un orquestador decide la estrategia,
-varios flujos coordinados recogen la información, se filtran los falsos positivos con evidencias
-técnicas y se puntúan los hallazgos (CVSS). El resultado sale como JSON estructurado y viaja por
-webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
+Herramienta de auditoría de seguridad web para pruebas autorizadas: a partir de **una sola URL**, un orquestador con IA (**Google Gemini**) coordina varios agentes especializados montados en **n8n** y reúne todo en un informe. Se filtran los falsos positivos con evidencias técnicas, se puntúa cada hallazgo con CVSS y el resultado sale como JSON por webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
+
+- **Scout — reconocimiento**: escaneo de puertos con Nmap, enumeración de subdominios con crt.sh y plantillas de Nuclei para detectar CVEs, malas configuraciones y exposiciones.
+- **Cazador Cloud**: busca buckets de almacenamiento expuestos o mal configurados en AWS S3, Google Cloud Storage y Azure Blob.
+- **Profeta — OSINT de infraestructura**: geolocalización y hosting de la IP, reputación en VirusTotal, histórico de URLs en Wayback, detección de WAF/CDN y búsqueda de credenciales filtradas.
+- **Analista — código**: revisa el repositorio público en busca de dependencias vulnerables (OSV) y secretos en el código fuente.
+- **Spider**: crawler profundo que mapea rutas, endpoints de API, ficheros JS, formularios y comentarios sensibles.
+- **Fuzzer**: descubre archivos y rutas sensibles expuestos y prueba formularios y parámetros.
+- **Striker**: agente con Gemini que valida los hallazgos de la capa web y emite un veredicto con evidencias.
+- **Lógico**: comprueba fallos de lógica de negocio (IDOR/BOLA, manejo de JWT y protección CSRF).
 
 </details>
 
