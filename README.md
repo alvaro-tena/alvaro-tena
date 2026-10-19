@@ -381,7 +381,7 @@ Proxy de seguridad en tiempo de ejecución (RASP) que se sitúa entre los agente
 </details>
 
 <details>
-<summary><b>Ingeniería inversa con REA</b></summary>
+<summary><b>Ingeniería Inversa con REA</b></summary>
 <br>
 
 <p>
@@ -437,7 +437,12 @@ Informes: [OWASP BWA (PDF)](https://portfolio-alvaro-swart.vercel.app/recursos/d
   <a href="https://supabase.com"><img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"></a>
 </p>
 
-Combate por turnos en el navegador para la asignatura de desarrollo web en entorno cliente. Cada jugador elige un equipo de tres Pokémon y, en el combate, ataca, usa la mochila (pociones) o huye. El daño tiene en cuenta el tipo, el ataque y la defensa.
+Combate por turnos para dos jugadores en el navegador, hecho en HTML, CSS y JavaScript sin frameworks para la asignatura de desarrollo web en entorno cliente. Los Pokémon, con sus estadísticas e imágenes, se cargan desde una tabla de Supabase.
+
+- **Selección de equipos**: cada jugador pone su nombre y elige tres Pokémon sin repetir; los equipos pasan a la pantalla de combate por `sessionStorage`.
+- **Turnos**: en cada turno se puede atacar, cambiar de Pokémon, usar la mochila (una poción de curación total, otra del 50 % y otra del 25 %) o huir, que da la victoria al rival.
+- **Daño**: parte del ataque menos un cuarto de la defensa del rival y se multiplica por una tabla de tipos (agua, planta, roca, acero, eléctrico, psíquico…) con ataques súper eficaces y poco eficaces.
+- **Interfaz**: barras de vida, pokéballs que marcan los Pokémon debilitados, historial del combate, animación al caer un Pokémon y pantalla de victoria con el ganador.
 
 Repositorio: [juegoPokemonAlvaro](https://github.com/alvaro-tena/juegoPokemonAlvaro)
 
@@ -454,7 +459,12 @@ Repositorio: [juegoPokemonAlvaro](https://github.com/alvaro-tena/juegoPokemonAlv
   <a href="https://supabase.com"><img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"></a>
 </p>
 
-Clon de la interfaz de WhatsApp Web para la asignatura de diseño. La columna de chats, la búsqueda y la conversación abierta van en la misma pantalla, con burbujas de mensajes y notas de voz. Los usuarios y los mensajes se guardan en Supabase.
+Clon de WhatsApp Web para la asignatura de diseño, hecho con React, Vite y Tailwind CSS. La columna de chats, la búsqueda y la conversación abierta van en la misma pantalla, con burbujas de mensajes.
+
+- **Tiempo real**: los usuarios y los mensajes se guardan en Supabase y los nuevos llegan al momento gracias a sus canales en tiempo real.
+- **Notas de voz**: se graban desde el micrófono con `MediaRecorder`, con un cronómetro en vivo mientras se habla, y se escuchan con un reproductor propio.
+- **Archivos y emojis**: los adjuntos se suben a Supabase Storage y se descargan desde el chat; un selector permite añadir emojis.
+- **Estado de los mensajes**: doble check que se vuelve azul al leerse, contador de no leídos en la lista de chats y una cabecera que simula si el contacto está en línea o su última conexión.
 
 Repositorio: [whatsappWeb](https://github.com/alvaro-tena/whatsappWeb)
 
