@@ -330,7 +330,7 @@ webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
 </details>
 
 <details>
-<summary><b>Alvi - Mi Asistente Virtual</b></summary>
+<summary><b>Alvi, Mi Asistente Personal</b></summary>
 <br>
 
 <p>
@@ -339,6 +339,8 @@ webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
   <a href="https://ollama.com"><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"></a>
   <a href="https://ai.google.dev/gemma"><img src="https://img.shields.io/badge/Gemma_4-4285F4?style=flat-square" alt="Gemma 4"></a>
   <a href="https://www.raspberrypi.com"><img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi"></a>
+  <a href="https://www.espressif.com/en/products/socs/esp32"><img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"></a>
+  <a href="https://www.arduino.cc"><img src="https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white" alt="Arduino"></a>
   <a href="https://github.com/rhasspy/piper"><img src="https://img.shields.io/badge/Piper_TTS-1B3A57?style=flat-square" alt="Piper TTS"></a>
   <a href="https://learn.microsoft.com/windows/win32/apiindex/windows-api-list"><img src="https://img.shields.io/badge/Windows_API-0078D4?style=flat-square" alt="Windows API"></a>
 </p>
@@ -348,6 +350,7 @@ Asistente de voz que corre en local y deja el entorno de trabajo listo (sep. 202
 - **Modelo local y acotado**: Gemma 4 en Ollama, en la GPU del propio PC, con medio segundo por turno. Solo puede llamar a funciones cerradas: sin shell libre y sin rutas, únicamente proyectos declarados.
 - **Acciones con permiso**: matar un puerto, hacer commit o push exige un verbo explícito; una pregunta no autoriza nada. Una frase puede traer varias órdenes y se ejecutan en el orden dicho.
 - **Red y arranque**: una Raspberry Pi hace de centinela de red, despierta el PC por Wake-on-LAN y comprueba que ha respondido.
+- **Captura de audio**: quien recibe el audio es una placa **ESP32** configurada con **Arduino**, que lo envía al PC para procesarlo.
 - **Voz y pantalla**: Piper le pone voz en español, los comandos se quedan en el portapapeles listos para pegar y el OCR offline de Windows lee los errores que hay a la vista.
 
 </details>
@@ -378,7 +381,7 @@ Proxy de seguridad en tiempo de ejecución (RASP) que se sitúa entre los agente
 </details>
 
 <details>
-<summary><b>Ingeniería inversa con REA</b></summary>
+<summary><b>Ingeniería Inversa con REA</b></summary>
 <br>
 
 <p>
@@ -434,7 +437,12 @@ Informes: [OWASP BWA (PDF)](https://portfolio-alvaro-swart.vercel.app/recursos/d
   <a href="https://supabase.com"><img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"></a>
 </p>
 
-Combate por turnos en el navegador para la asignatura de desarrollo web en entorno cliente. Cada jugador elige un equipo de tres Pokémon y, en el combate, ataca, usa la mochila (pociones) o huye. El daño tiene en cuenta el tipo, el ataque y la defensa.
+Combate por turnos para dos jugadores en el navegador, hecho en HTML, CSS y JavaScript sin frameworks para la asignatura de desarrollo web en entorno cliente. Los Pokémon, con sus estadísticas e imágenes, se cargan desde una tabla de Supabase.
+
+- **Selección de equipos**: cada jugador pone su nombre y elige tres Pokémon sin repetir; los equipos pasan a la pantalla de combate por `sessionStorage`.
+- **Turnos**: en cada turno se puede atacar, cambiar de Pokémon, usar la mochila (una poción de curación total, otra del 50 % y otra del 25 %) o huir, que da la victoria al rival.
+- **Daño**: parte del ataque menos un cuarto de la defensa del rival y se multiplica por una tabla de tipos (agua, planta, roca, acero, eléctrico, psíquico…) con ataques súper eficaces y poco eficaces.
+- **Interfaz**: barras de vida, pokéballs que marcan los Pokémon debilitados, historial del combate, animación al caer un Pokémon y pantalla de victoria con el ganador.
 
 Repositorio: [juegoPokemonAlvaro](https://github.com/alvaro-tena/juegoPokemonAlvaro)
 
@@ -451,7 +459,12 @@ Repositorio: [juegoPokemonAlvaro](https://github.com/alvaro-tena/juegoPokemonAlv
   <a href="https://supabase.com"><img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"></a>
 </p>
 
-Clon de la interfaz de WhatsApp Web para la asignatura de diseño. La columna de chats, la búsqueda y la conversación abierta van en la misma pantalla, con burbujas de mensajes y notas de voz. Los usuarios y los mensajes se guardan en Supabase.
+Clon de WhatsApp Web para la asignatura de diseño, hecho con React, Vite y Tailwind CSS. La columna de chats, la búsqueda y la conversación abierta van en la misma pantalla, con burbujas de mensajes.
+
+- **Tiempo real**: los usuarios y los mensajes se guardan en Supabase y los nuevos llegan al momento gracias a sus canales en tiempo real.
+- **Notas de voz**: se graban desde el micrófono con `MediaRecorder`, con un cronómetro en vivo mientras se habla, y se escuchan con un reproductor propio.
+- **Archivos y emojis**: los adjuntos se suben a Supabase Storage y se descargan desde el chat; un selector permite añadir emojis.
+- **Estado de los mensajes**: doble check que se vuelve azul al leerse, contador de no leídos en la lista de chats y una cabecera que simula si el contacto está en línea o su última conexión.
 
 Repositorio: [whatsappWeb](https://github.com/alvaro-tena/whatsappWeb)
 
