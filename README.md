@@ -339,6 +339,8 @@ webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
   <a href="https://ollama.com"><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"></a>
   <a href="https://ai.google.dev/gemma"><img src="https://img.shields.io/badge/Gemma_4-4285F4?style=flat-square" alt="Gemma 4"></a>
   <a href="https://www.raspberrypi.com"><img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi"></a>
+  <a href="https://www.espressif.com/en/products/socs/esp32"><img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"></a>
+  <a href="https://www.arduino.cc"><img src="https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white" alt="Arduino"></a>
   <a href="https://github.com/rhasspy/piper"><img src="https://img.shields.io/badge/Piper_TTS-1B3A57?style=flat-square" alt="Piper TTS"></a>
   <a href="https://learn.microsoft.com/windows/win32/apiindex/windows-api-list"><img src="https://img.shields.io/badge/Windows_API-0078D4?style=flat-square" alt="Windows API"></a>
 </p>
@@ -348,6 +350,7 @@ Asistente de voz que corre en local y deja el entorno de trabajo listo (sep. 202
 - **Modelo local y acotado**: Gemma 4 en Ollama, en la GPU del propio PC, con medio segundo por turno. Solo puede llamar a funciones cerradas: sin shell libre y sin rutas, únicamente proyectos declarados.
 - **Acciones con permiso**: matar un puerto, hacer commit o push exige un verbo explícito; una pregunta no autoriza nada. Una frase puede traer varias órdenes y se ejecutan en el orden dicho.
 - **Red y arranque**: una Raspberry Pi hace de centinela de red, despierta el PC por Wake-on-LAN y comprueba que ha respondido.
+- **Captura de audio**: quien recibe el audio es una placa **ESP32** configurada con **Arduino**, que lo envía al PC para procesarlo.
 - **Voz y pantalla**: Piper le pone voz en español, los comandos se quedan en el portapapeles listos para pegar y el OCR offline de Windows lee los errores que hay a la vista.
 
 </details>
