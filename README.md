@@ -260,7 +260,7 @@ Generador automático de presupuestos (ene. 2026 – feb. 2026). El RFP se proce
 </details>
 
 <details>
-<summary><b>DataManager Copilot</b></summary>
+<summary><b>Copiloto para Data Manager</b></summary>
 <br>
 
 <p>
