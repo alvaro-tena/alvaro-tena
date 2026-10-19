@@ -64,7 +64,7 @@
 <g transform="translate(48 0)">
   <text class="m" x="0" y="400" font-size="26" fill="#34d399">&gt; Hola! soy<tspan class="cursor" dx="6">_</tspan></text>
   <text class="n" x="-2" y="468" font-size="60" font-weight="800" fill="#f3f6fb" letter-spacing="-1">Álvaro Tena García</text>
-  <text class="n" x="0" y="524" font-size="30" fill="#e9eef6" fill-opacity=".92">Ingeniero de software en Softtek</text>
+  <text class="n" x="0" y="524" font-size="30" fill="#e9eef6" font-weight="700" fill-opacity=".92">Ingeniero de software en Softtek</text>
   <text class="n" x="0" y="564" font-size="30" fill="#e9eef6" fill-opacity=".92">Córdoba, España</text>
   <text class="n" x="0" y="622" font-size="26" fill="#9aa7b8">Me muevo entre el desarrollo web</text>
   <text class="n" x="0" y="658" font-size="26" fill="#9aa7b8">full stack, la ciberseguridad</text>
