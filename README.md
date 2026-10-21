@@ -282,6 +282,29 @@ Sistema de QA inteligente. Asistente dentro de VS Code para buscar, preparar y r
 </details>
 
 <details>
+<summary><b>Plataforma de auditoría y DevSecOps con IA</b></summary>
+<br>
+
+<p>
+  <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"></a>
+  <a href="https://gemini.google.com"><img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini"></a>
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"></a>
+</p>
+
+Herramienta de auditoría de seguridad web para pruebas autorizadas: a partir de **una sola URL**, un orquestador con IA (**Google Gemini**) coordina varios agentes especializados montados en **n8n** y reúne todo en un informe. Se filtran los falsos positivos con evidencias técnicas, se puntúa cada hallazgo con CVSS y el resultado sale como JSON por webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
+
+- **Scout — reconocimiento**: escaneo de puertos con Nmap, enumeración de subdominios con crt.sh y plantillas de Nuclei para detectar CVEs, malas configuraciones y exposiciones.
+- **Cazador Cloud**: busca buckets de almacenamiento expuestos o mal configurados en AWS S3, Google Cloud Storage y Azure Blob.
+- **Profeta — OSINT de infraestructura**: geolocalización y hosting de la IP, reputación en VirusTotal, histórico de URLs en Wayback, detección de WAF/CDN y búsqueda de credenciales filtradas.
+- **Analista — código**: revisa el repositorio público en busca de dependencias vulnerables (OSV) y secretos en el código fuente.
+- **Spider**: crawler profundo que mapea rutas, endpoints de API, ficheros JS, formularios y comentarios sensibles.
+- **Fuzzer**: descubre archivos y rutas sensibles expuestos y prueba formularios y parámetros.
+- **Striker**: agente con Gemini que valida los hallazgos de la capa web y emite un veredicto con evidencias.
+- **Lógico**: comprueba fallos de lógica de negocio (IDOR/BOLA, manejo de JWT y protección CSRF).
+
+</details>
+
+<details>
 <summary><b>Arquitectura OCR con extracción por IA y control antifraude</b></summary>
 <br>
 
@@ -313,29 +336,6 @@ Arquitectura de extremo a extremo para reembolsos médicos que junta OCR multimo
 </details>
 
 <details>
-<summary><b>Plataforma de auditoría y DevSecOps con IA</b></summary>
-<br>
-
-<p>
-  <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"></a>
-  <a href="https://gemini.google.com"><img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini"></a>
-  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"></a>
-</p>
-
-Herramienta de auditoría de seguridad web para pruebas autorizadas: a partir de **una sola URL**, un orquestador con IA (**Google Gemini**) coordina varios agentes especializados montados en **n8n** y reúne todo en un informe. Se filtran los falsos positivos con evidencias técnicas, se puntúa cada hallazgo con CVSS y el resultado sale como JSON por webhook a un **frontend en React** que lo convierte en un dashboard interactivo.
-
-- **Scout — reconocimiento**: escaneo de puertos con Nmap, enumeración de subdominios con crt.sh y plantillas de Nuclei para detectar CVEs, malas configuraciones y exposiciones.
-- **Cazador Cloud**: busca buckets de almacenamiento expuestos o mal configurados en AWS S3, Google Cloud Storage y Azure Blob.
-- **Profeta — OSINT de infraestructura**: geolocalización y hosting de la IP, reputación en VirusTotal, histórico de URLs en Wayback, detección de WAF/CDN y búsqueda de credenciales filtradas.
-- **Analista — código**: revisa el repositorio público en busca de dependencias vulnerables (OSV) y secretos en el código fuente.
-- **Spider**: crawler profundo que mapea rutas, endpoints de API, ficheros JS, formularios y comentarios sensibles.
-- **Fuzzer**: descubre archivos y rutas sensibles expuestos y prueba formularios y parámetros.
-- **Striker**: agente con Gemini que valida los hallazgos de la capa web y emite un veredicto con evidencias.
-- **Lógico**: comprueba fallos de lógica de negocio (IDOR/BOLA, manejo de JWT y protección CSRF).
-
-</details>
-
-<details>
 <summary><b>Alvi, Mi Asistente Personal</b></summary>
 <br>
 
@@ -358,6 +358,113 @@ Asistente de voz que corre en local y deja el entorno de trabajo listo. No escri
 - **Red y arranque**: una Raspberry Pi hace de centinela de red, despierta el PC por Wake-on-LAN y comprueba que ha respondido.
 - **Captura de audio**: quien recibe el audio es una placa **ESP32** configurada con **Arduino**, que lo envía al PC para procesarlo.
 - **Voz y pantalla**: Piper le pone voz en español, los comandos se quedan en el portapapeles listos para pegar y el OCR offline de Windows lee los errores que hay a la vista.
+
+</details>
+
+<details>
+<summary><b>Karphaty — Segundo cerebro para agentes de IA</b></summary>
+<br>
+
+<p>
+  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-1C3C3C?style=flat-square" alt="MCP"></a>
+  <a href="https://claude.com/code"><img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code"></a>
+  <a href="https://cursor.com"><img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor"></a>
+  <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"></a>
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"></a>
+  <a href="https://vuejs.org"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue.js"></a>
+</p>
+
+Nació de un problema real en el canal digital de una aseguradora: los agentes de IA con los que programábamos no conocían el negocio, buscaban a ciegas en el código y, al hacer un cambio, se dejaban capas sin tocar. Así que les construí un segundo cerebro al que preguntar antes de escribir una sola línea.
+
+- **Todo lo que sabe el equipo en un sitio**: wiki, documentación funcional, tickets de Jira y transcripciones de reuniones, junto con grafos del código de los proyectos de React, Vue y AEM.
+- **Servidor MCP propio**: un harness en Python, sin dependencias, que da a cualquier agente la búsqueda, el grafo de impacto y el estado del cerebro.
+- **Primero revisa, luego implementa**: el agente consulta el cerebro, mira en el grafo qué archivos afecta de verdad el cambio y enseña un informe; no toca nada hasta que alguien le dice que sí.
+- **Búsqueda híbrida**: mezcla palabras clave y vectores, con sinónimos en español, para encontrar lo que buscas aunque no uses el término exacto.
+- **Trazable y portable**: cada agente deja un log con las herramientas que ha usado de verdad, y funciona igual con Claude Code, Cursor o GitHub Copilot porque todos hablan el mismo contrato MCP, cubierto por 61 tests.
+
+</details>
+
+<details>
+<summary><b>Chatbots con n8n</b></summary>
+<br>
+
+<p>
+  <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"></a>
+  <a href="https://gemini.google.com"><img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini"></a>
+  <a href="https://groq.com"><img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIuMDM2IDJjLTMuODUzLS4wMzUtNyAzLTcuMDM2IDYuNzgxLS4wMzUgMy43ODIgMy4wNTUgNi44NzIgNi45MDggNi45MDdoMi40MnYtMi41NjZoLTIuMjkyYy0yLjQwNy4wMjgtNC4zOC0xLjg2Ni00LjQwOC00LjIzLS4wMjktMi4zNjIgMS45MDEtNC4yOTggNC4zMDgtNC4zMjZoLjFjMi40MDcgMCA0LjM1OCAxLjkxNSA0LjM2NSA0LjI3OHY2LjMwNWMwIDIuMzQyLTEuOTQ0IDQuMjUtNC4zMjMgNC4yNzlhNC4zNzUgNC4zNzUgMCAwMS0zLjAzMy0xLjI1MmwtMS44NTEgMS44MThBNyA3IDAgMDAxMi4wMjkgMjJoLjA5MmMzLjgwMy0uMDU2IDYuODU4LTMuMDgzIDYuODc5LTYuODE2di02LjVDMTguOTA3IDQuOTYzIDE1LjgxNyAyIDEyLjAzNiAyeiI%2BPC9wYXRoPjwvc3ZnPg%3D%3D&logoColor=white" alt="Groq"></a>
+  <a href="https://workspace.google.com/products/sheets/"><img src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" alt="Google Sheets"></a>
+  <a href="https://www.google.com/gmail/"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"></a>
+  <a href="https://telegram.org"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
+</p>
+
+Varios chatbots que monté en n8n para resolver lo que más piden las empresas: contestar solas las dudas de siempre y no perder a nadie que quiera contratar algo. Todos recuerdan la conversación y trabajan con herramientas reales en vez de inventarse las respuestas.
+
+- **Preguntas frecuentes en la web**: un agente con Gemini que solo contesta con lo que hay en una hoja de Google Sheets; si algo no está ahí, no se lo inventa, y cambiar una respuesta es tan fácil como editar la hoja.
+- **Analizador de intención**: cada mensaje pasa primero por un clasificador con Llama 4 Maverick en Groq: las dudas van al agente de preguntas frecuentes y quien quiere contratar un servicio pasa a otro agente que le pide los datos y manda el contacto por Gmail.
+- **Bot de Telegram que envía correos**: le dices a quién escribir, el asunto y lo que quieres contar, y redacta un correo profesional en HTML con mi firma y lo envía por Gmail, con memoria por usuario.
+
+</details>
+
+<details>
+<summary><b>RAG con n8n</b></summary>
+<br>
+
+<p>
+  <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"></a>
+  <a href="https://supabase.com"><img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"></a>
+  <a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
+  <a href="https://cohere.com"><img src="https://img.shields.io/badge/Cohere-39594D?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjEyOCAxNC4wOTljLjU5MiAwIDEuNzctLjAzMyAzLjM5OC0uNzAzIDEuODk3LS43ODEgNS42NzItMi4yIDguMzk1LTMuNjU2IDEuOTA1LTEuMDE4IDIuNzQtMi4zNjYgMi43NC00LjE4QTQuNTYgNC41NiAwIDAwMTguMSAxSDcuNTQ5QTYuNTUgNi41NSAwIDAwMSA3LjU1YzAgMy42MTcgMi43NDUgNi41NDkgNy4xMjggNi41NDl6Ij48L3BhdGg%2BPHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOS45MTIgMTguNjFhNC4zODcgNC4zODcgMCAwMTIuNzA1LTQuMDUybDMuMzIzLTEuMzhjMy4zNjEtMS4zOTQgNy4wNiAxLjA3NiA3LjA2IDQuNzE1YTUuMTA0IDUuMTA0IDAgMDEtNS4xMDUgNS4xMDRsLTMuNTk3LS4wMDFhNC4zODYgNC4zODYgMCAwMS00LjM4Ni00LjM4N3oiPjwvcGF0aD48cGF0aCBkPSJNNC43NzYgMTQuOTYyQTMuNzc1IDMuNzc1IDAgMDAxIDE4LjczOHYuNDg5YTMuNzc2IDMuNzc2IDAgMDA3LjU1MSAwdi0uNDlhMy43NzUgMy43NzUgMCAwMC0zLjc3NS0zLjc3NXoiPjwvcGF0aD48L3N2Zz4%3D&logoColor=white" alt="Cohere"></a>
+  <a href="https://groq.com"><img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIuMDM2IDJjLTMuODUzLS4wMzUtNyAzLTcuMDM2IDYuNzgxLS4wMzUgMy43ODIgMy4wNTUgNi44NzIgNi45MDggNi45MDdoMi40MnYtMi41NjZoLTIuMjkyYy0yLjQwNy4wMjgtNC4zOC0xLjg2Ni00LjQwOC00LjIzLS4wMjktMi4zNjIgMS45MDEtNC4yOTggNC4zMDgtNC4zMjZoLjFjMi40MDcgMCA0LjM1OCAxLjkxNSA0LjM2NSA0LjI3OHY2LjMwNWMwIDIuMzQyLTEuOTQ0IDQuMjUtNC4zMjMgNC4yNzlhNC4zNzUgNC4zNzUgMCAwMS0zLjAzMy0xLjI1MmwtMS44NTEgMS44MThBNyA3IDAgMDAxMi4wMjkgMjJoLjA5MmMzLjgwMy0uMDU2IDYuODU4LTMuMDgzIDYuODc5LTYuODE2di02LjVDMTguOTA3IDQuOTYzIDE1LjgxNyAyIDEyLjAzNiAyeiI%2BPC9wYXRoPjwvc3ZnPg%3D%3D&logoColor=white" alt="Groq"></a>
+  <a href="https://www.google.com/drive/"><img src="https://img.shields.io/badge/Google_Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white" alt="Google Drive"></a>
+</p>
+
+Quería un asistente que contestara con la información de mis documentos y no con lo que el modelo cree saber, así que monté un RAG completo en n8n en dos partes: una que mantiene la base de conocimiento al día sin que nadie la toque y otra que responde consultándola.
+
+- **Ingesta automática**: cada poco revisa una carpeta de Google Drive y recorre todos sus archivos (con los disparadores de Drive solo procesaba uno).
+- **Sin duplicados**: antes de volver a cargar un archivo borra de Supabase sus trozos antiguos.
+- **Cada formato a su manera**: PDF, documentos, hojas de cálculo y Excel se extraen por separado, se parten en trozos de 400 caracteres con 80 de solape y se guardan con embeddings multilingües de Cohere en Supabase.
+- **Chat que no se inventa nada**: un agente con Llama 4 en Groq consulta siempre esa base antes de responder y, si algo no está en los documentos, lo dice; la memoria va en PostgreSQL para tener historial.
+
+</details>
+
+<details>
+<summary><b>Scraper web con n8n</b></summary>
+<br>
+
+<p>
+  <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"></a>
+  <a href="https://www.firecrawl.dev"><img src="https://img.shields.io/badge/Firecrawl-FA5D19?style=flat-square" alt="Firecrawl"></a>
+  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"></a>
+  <a href="https://www.google.com/gmail/"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"></a>
+</p>
+
+Un flujo para no tener que revisar una tienda a mano cada día. Firecrawl lee la web de una librería y, con un prompt, devuelve de cada libro el nombre, el precio, si hay stock, el enlace y la imagen ya en JSON. n8n se queda con los que cuestan menos de 40 € y están disponibles, los convierte en un correo HTML bien presentado y me lo manda por Gmail. Cambiando la dirección y el prompt sirve para vigilar precios o stock de cualquier web.
+
+</details>
+
+<details>
+<summary><b>Despliegue local de n8n</b></summary>
+<br>
+
+<p>
+  <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"></a>
+  <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
+  <a href="https://learn.microsoft.com/windows/wsl/"><img src="https://img.shields.io/badge/WSL-4D4D4D?style=flat-square&logo=linux&logoColor=white" alt="WSL"></a>
+  <a href="https://ubuntu.com"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu"></a>
+  <a href="https://nginx.org"><img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx"></a>
+  <a href="https://owasp.org"><img src="https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white" alt="OWASP"></a>
+  <a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
+</p>
+
+Una guía para montar n8n en local de forma segura, porque la instalación por defecto deja el editor expuesto sin nada delante.
+
+- **Red aislada**: todo corre en Docker sobre WSL con Ubuntu, en una red propia con IPs fijas, y solo se publica el puerto del proxy.
+- **Proxy inverso**: NGINX con la configuración que necesitan los eventos en tiempo real de n8n para que el editor no se quede colgado.
+- **WAF y alta disponibilidad**: ModSecurity con las reglas de OWASP delante y dos instancias de n8n detrás que comparten PostgreSQL y clave de cifrado, con un servidor de respaldo si el principal falla.
+- **Seguridad**: repaso del OWASP Top 10 y del de aplicaciones con LLM aplicados a n8n: doble factor, versiones fijadas, auditoría, logs centralizados y protección contra SSRF.
+
+Informe: [Descargar PDF](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/n8n-despliegue-local.pdf)
 
 </details>
 
@@ -431,114 +538,6 @@ Dos prácticas de 2.º de DAW con máquinas vulnerables a propósito, una desde 
 Informes: [OWASP BWA (PDF)](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/owasp-bwa.pdf) · [WebGoat (PDF)](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/webgoat.pdf)
 
 Vídeo: [Explotación de OWASP Broken Web Application (MP4)](https://portfolio-alvaro-swart.vercel.app/recursos/video/owaspAlvaro.mp4)
-
-</details>
-
-<details>
-<summary><b>Karphaty — Segundo cerebro para agentes de IA</b></summary>
-<br>
-
-<p>
-  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
-  <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-1C3C3C?style=flat-square" alt="MCP"></a>
-  <a href="https://claude.com/code"><img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code"></a>
-  <a href="https://cursor.com"><img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor"></a>
-  <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"></a>
-  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"></a>
-  <a href="https://vuejs.org"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue.js"></a>
-</p>
-
-Nació de un problema real en el canal digital de una aseguradora: los agentes de IA con los que programábamos no conocían el negocio, buscaban a ciegas en el código y, al hacer un cambio, se dejaban capas sin tocar. Así que les construí un segundo cerebro al que preguntar antes de escribir una sola línea.
-
-- **Todo lo que sabe el equipo en un sitio**: wiki, documentación funcional, tickets de Jira y transcripciones de reuniones, junto con grafos del código de los proyectos de React, Vue y AEM.
-- **Servidor MCP propio**: un harness en Python, sin dependencias, que da a cualquier agente la búsqueda, el grafo de impacto y el estado del cerebro.
-- **Primero revisa, luego implementa**: el agente consulta el cerebro, mira en el grafo qué archivos afecta de verdad el cambio y enseña un informe; no toca nada hasta que alguien le dice que sí.
-- **Búsqueda híbrida**: mezcla palabras clave y vectores, con sinónimos en español, para encontrar lo que buscas aunque no uses el término exacto.
-- **Trazable y portable**: cada agente deja un log con las herramientas que ha usado de verdad, y funciona igual con Claude Code, Cursor o GitHub Copilot porque todos hablan el mismo contrato MCP, cubierto por 61 tests.
-
-</details>
-
-<details>
-<summary><b>Chatbots con n8n</b></summary>
-<br>
-
-<p>
-  <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"></a>
-  <a href="https://gemini.google.com"><img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini"></a>
-  <a href="https://groq.com"><img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIuMDM2IDJjLTMuODUzLS4wMzUtNyAzLTcuMDM2IDYuNzgxLS4wMzUgMy43ODIgMy4wNTUgNi44NzIgNi45MDggNi45MDdoMi40MnYtMi41NjZoLTIuMjkyYy0yLjQwNy4wMjgtNC4zOC0xLjg2Ni00LjQwOC00LjIzLS4wMjktMi4zNjIgMS45MDEtNC4yOTggNC4zMDgtNC4zMjZoLjFjMi40MDcgMCA0LjM1OCAxLjkxNSA0LjM2NSA0LjI3OHY2LjMwNWMwIDIuMzQyLTEuOTQ0IDQuMjUtNC4zMjMgNC4yNzlhNC4zNzUgNC4zNzUgMCAwMS0zLjAzMy0xLjI1MmwtMS44NTEgMS44MThBNyA3IDAgMDAxMi4wMjkgMjJoLjA5MmMzLjgwMy0uMDU2IDYuODU4LTMuMDgzIDYuODc5LTYuODE2di02LjVDMTguOTA3IDQuOTYzIDE1LjgxNyAyIDEyLjAzNiAyeiI%2BPC9wYXRoPjwvc3ZnPg%3D%3D&logoColor=white" alt="Groq"></a>
-  <a href="https://workspace.google.com/products/sheets/"><img src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" alt="Google Sheets"></a>
-  <a href="https://www.google.com/gmail/"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"></a>
-  <a href="https://telegram.org"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
-</p>
-
-Varios chatbots que monté en n8n para resolver lo que más piden las empresas: contestar solas las dudas de siempre y no perder a nadie que quiera contratar algo. Todos recuerdan la conversación y trabajan con herramientas reales en vez de inventarse las respuestas.
-
-- **Preguntas frecuentes en la web**: un agente con Gemini que solo contesta con lo que hay en una hoja de Google Sheets; si algo no está ahí, no se lo inventa, y cambiar una respuesta es tan fácil como editar la hoja.
-- **Analizador de intención**: cada mensaje pasa primero por un clasificador con Llama 4 Maverick en Groq: las dudas van al agente de preguntas frecuentes y quien quiere contratar un servicio pasa a otro agente que le pide los datos y manda el contacto por Gmail.
-- **Bot de Telegram que envía correos**: le dices a quién escribir, el asunto y lo que quieres contar, y redacta un correo profesional en HTML con mi firma y lo envía por Gmail, con memoria por usuario.
-- **Correos desde un chat web**: la misma idea en un chat embebido en una web, recordando la conversación de cada sesión.
-
-</details>
-
-<details>
-<summary><b>RAG con n8n</b></summary>
-<br>
-
-<p>
-  <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"></a>
-  <a href="https://supabase.com"><img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"></a>
-  <a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
-  <a href="https://cohere.com"><img src="https://img.shields.io/badge/Cohere-39594D?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjEyOCAxNC4wOTljLjU5MiAwIDEuNzctLjAzMyAzLjM5OC0uNzAzIDEuODk3LS43ODEgNS42NzItMi4yIDguMzk1LTMuNjU2IDEuOTA1LTEuMDE4IDIuNzQtMi4zNjYgMi43NC00LjE4QTQuNTYgNC41NiAwIDAwMTguMSAxSDcuNTQ5QTYuNTUgNi41NSAwIDAwMSA3LjU1YzAgMy42MTcgMi43NDUgNi41NDkgNy4xMjggNi41NDl6Ij48L3BhdGg%2BPHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOS45MTIgMTguNjFhNC4zODcgNC4zODcgMCAwMTIuNzA1LTQuMDUybDMuMzIzLTEuMzhjMy4zNjEtMS4zOTQgNy4wNiAxLjA3NiA3LjA2IDQuNzE1YTUuMTA0IDUuMTA0IDAgMDEtNS4xMDUgNS4xMDRsLTMuNTk3LS4wMDFhNC4zODYgNC4zODYgMCAwMS00LjM4Ni00LjM4N3oiPjwvcGF0aD48cGF0aCBkPSJNNC43NzYgMTQuOTYyQTMuNzc1IDMuNzc1IDAgMDAxIDE4LjczOHYuNDg5YTMuNzc2IDMuNzc2IDAgMDA3LjU1MSAwdi0uNDlhMy43NzUgMy43NzUgMCAwMC0zLjc3NS0zLjc3NXoiPjwvcGF0aD48L3N2Zz4%3D&logoColor=white" alt="Cohere"></a>
-  <a href="https://groq.com"><img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIuMDM2IDJjLTMuODUzLS4wMzUtNyAzLTcuMDM2IDYuNzgxLS4wMzUgMy43ODIgMy4wNTUgNi44NzIgNi45MDggNi45MDdoMi40MnYtMi41NjZoLTIuMjkyYy0yLjQwNy4wMjgtNC4zOC0xLjg2Ni00LjQwOC00LjIzLS4wMjktMi4zNjIgMS45MDEtNC4yOTggNC4zMDgtNC4zMjZoLjFjMi40MDcgMCA0LjM1OCAxLjkxNSA0LjM2NSA0LjI3OHY2LjMwNWMwIDIuMzQyLTEuOTQ0IDQuMjUtNC4zMjMgNC4yNzlhNC4zNzUgNC4zNzUgMCAwMS0zLjAzMy0xLjI1MmwtMS44NTEgMS44MThBNyA3IDAgMDAxMi4wMjkgMjJoLjA5MmMzLjgwMy0uMDU2IDYuODU4LTMuMDgzIDYuODc5LTYuODE2di02LjVDMTguOTA3IDQuOTYzIDE1LjgxNyAyIDEyLjAzNiAyeiI%2BPC9wYXRoPjwvc3ZnPg%3D%3D&logoColor=white" alt="Groq"></a>
-  <a href="https://www.google.com/drive/"><img src="https://img.shields.io/badge/Google_Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white" alt="Google Drive"></a>
-</p>
-
-Quería un asistente que contestara con la información de mis documentos y no con lo que el modelo cree saber, así que monté un RAG completo en n8n en dos partes: una que mantiene la base de conocimiento al día sin que nadie la toque y otra que responde consultándola.
-
-- **Ingesta automática**: cada poco revisa una carpeta de Google Drive y recorre todos sus archivos (con los disparadores de Drive solo procesaba uno).
-- **Sin duplicados**: antes de volver a cargar un archivo borra de Supabase sus trozos antiguos.
-- **Cada formato a su manera**: PDF, documentos, hojas de cálculo y Excel se extraen por separado, se parten en trozos de 400 caracteres con 80 de solape y se guardan con embeddings multilingües de Cohere en Supabase.
-- **Chat que no se inventa nada**: un agente con Llama 4 en Groq consulta siempre esa base antes de responder y, si algo no está en los documentos, lo dice; la memoria va en PostgreSQL para tener historial.
-
-</details>
-
-<details>
-<summary><b>Scraper web con n8n</b></summary>
-<br>
-
-<p>
-  <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"></a>
-  <a href="https://www.firecrawl.dev"><img src="https://img.shields.io/badge/Firecrawl-FA5D19?style=flat-square" alt="Firecrawl"></a>
-  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"></a>
-  <a href="https://www.google.com/gmail/"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"></a>
-</p>
-
-Un flujo para no tener que revisar una tienda a mano cada día. Firecrawl lee la web de una librería y, con un prompt, devuelve de cada libro el nombre, el precio, si hay stock, el enlace y la imagen ya en JSON. n8n se queda con los que cuestan menos de 40 € y están disponibles, los convierte en un correo HTML bien presentado y me lo manda por Gmail. Cambiando la dirección y el prompt sirve para vigilar precios o stock de cualquier web.
-
-</details>
-
-<details>
-<summary><b>Despliegue local de n8n</b></summary>
-<br>
-
-<p>
-  <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"></a>
-  <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
-  <a href="https://learn.microsoft.com/windows/wsl/"><img src="https://img.shields.io/badge/WSL-4D4D4D?style=flat-square&logo=linux&logoColor=white" alt="WSL"></a>
-  <a href="https://ubuntu.com"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu"></a>
-  <a href="https://nginx.org"><img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx"></a>
-  <a href="https://owasp.org"><img src="https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white" alt="OWASP"></a>
-  <a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
-</p>
-
-Una guía para montar n8n en local de forma segura, porque la instalación por defecto deja el editor expuesto sin nada delante.
-
-- **Red aislada**: todo corre en Docker sobre WSL con Ubuntu, en una red propia con IPs fijas, y solo se publica el puerto del proxy.
-- **Proxy inverso**: NGINX con la configuración que necesitan los eventos en tiempo real de n8n para que el editor no se quede colgado.
-- **WAF y alta disponibilidad**: ModSecurity con las reglas de OWASP delante y dos instancias de n8n detrás que comparten PostgreSQL y clave de cifrado, con un servidor de respaldo si el principal falla.
-- **Seguridad**: repaso del OWASP Top 10 y del de aplicaciones con LLM aplicados a n8n: doble factor, versiones fijadas, auditoría, logs centralizados y protección contra SSRF.
-
-Informe: [Descargar PDF](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/n8n-despliegue-local.pdf)
 
 </details>
 
