@@ -362,7 +362,7 @@ Asistente de voz que corre en local y deja el entorno de trabajo listo. No escri
 </details>
 
 <details>
-<summary><b>Karphaty — Segundo cerebro para agentes de IA</b></summary>
+<summary><b>Karphaty, Segundo cerebro para agentes de IA</b></summary>
 <br>
 
 <p>
