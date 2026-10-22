@@ -14,7 +14,19 @@
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo">
   </a>
   <a href="https://alvarotena.pages.dev">
-    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Portfolio">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://securityheaders.com/?q=https%3A%2F%2Falvarotena.pages.dev%2F&followRedirects=on">
+    <img src="https://img.shields.io/badge/Security%20Headers-A%2B-2ea44f?style=flat-square" alt="Security Headers A+">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/observatory/analyze?host=alvarotena.pages.dev">
+    <img src="https://img.shields.io/badge/Mozilla%20Observatory-A%2B%20%C2%B7%20130%2F100-2ea44f?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla Observatory A+">
+  </a>
+  <a href="https://alvarotena.pages.dev/.well-known/security.txt">
+    <img src="https://img.shields.io/badge/security.txt-RFC%209116-555555?style=flat-square" alt="security.txt">
   </a>
 </p>
 
