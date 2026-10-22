@@ -274,24 +274,27 @@ Generador automático de presupuestos. El RFP se procesa y los embeddings quedan
 </details>
 
 <details>
-<summary><b>Copiloto para Data Manager</b></summary>
+<summary><b>Proxy para Agentes de IA</b></summary>
 <br>
 
 <p>
-  <a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIzLjE1IDIuNTg3IDE4LjIxLjIxYTEuNDk0IDEuNDk0IDAgMCAwLTEuNzA1LjI5bC05LjQ2IDguNjMtNC4xMi0zLjEyOGEuOTk5Ljk5OSAwIDAgMC0xLjI3Ni4wNTdMLjMyNyA3LjI2MUExIDEgMCAwIDAgLjMyNiA4Ljc0TDMuODk5IDEyIC4zMjYgMTUuMjZhMSAxIDAgMCAwIC4wMDEgMS40NzlMMS42NSAxNy45NGEuOTk5Ljk5OSAwIDAgMCAxLjI3Ni4wNTdsNC4xMi0zLjEyOCA5LjQ2IDguNjNhMS40OTIgMS40OTIgMCAwIDAgMS43MDQuMjlsNC45NDItMi4zNzdBMS41IDEuNSAwIDAgMCAyNCAyMC4wNlYzLjkzOWExLjUgMS41IDAgMCAwLS44NS0xLjM1MnptLTUuMTQ2IDE0Ljg2MUwxMC44MjYgMTJsNy4xNzgtNS40NDh2MTAuODk2eiIvPjwvc3ZnPg%3D%3D" alt="VS Code"></a>
-  <a href="https://www.atlassian.com/software/jira"><img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira"></a>
-  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"></a>
-  <a href="https://kafka.apache.org"><img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka"></a>
-  <a href="https://git-scm.com"><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"></a>
+  <a href="https://go.dev"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"></a>
+  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"></a>
+  <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"></a>
+  <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
+  <a href="https://onnxruntime.ai"><img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime"></a>
+  <a href="https://huggingface.co/meta-llama/Llama-Guard-3-8B"><img src="https://img.shields.io/badge/Llama_Guard-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Llama Guard"></a>
+  <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-1C3C3C?style=flat-square" alt="MCP"></a>
 </p>
 
-Sistema de QA inteligente. Asistente dentro de VS Code para buscar, preparar y reservar datos de prueba, en vez de pelearse con las bases de datos a mano.
+Proxy de seguridad en tiempo de ejecución (RASP) que se sitúa entre los agentes de IA y el proveedor del modelo. Funciona como un antivirus para agentes: intercepta el tráfico, compara el significado de los prompts con firmas de ataque y vigila los flujos tóxicos de cada sesión.
 
-- **De principio a fin**: lee los requisitos en Jira y comprueba que las APIs del entorno UAT están listas.
-- **Reserva inteligente**: localiza los datos y crea bloqueos temporales para que nadie más los pise.
-- **Sincronización Git**: commits y pushes automáticos. Si hay un conflicto, actualiza y busca otra alternativa.
-- **Conexión directa**: publica la información en las colas de Kafka.
-- **Cero alucinaciones**: no inventa comandos, usa herramientas en Node.js y se para a preguntar si falta un dato.
+- **Filtro de entrada**: un modelo local de intención (Prompt-Guard y Llama Guard 3) decide si cada petición pasa; si no responde, bloquea.
+- **Proxy ligero sin Docker**: un binario en Go con ONNX Runtime bloquea credenciales, busca firmas de ataque por embeddings y pasa un clasificador de inyección de prompts.
+- **Router**: traduce entre OpenAI y Anthropic y evita que el prompt de sistema se filtre en las respuestas.
+- **Cadena de suministro**: un gateway MCP y un analizador (YARA y Frida) auditan skills y servidores MCP y los bloquean o los ponen en cuarentena.
+- **Modo sombra**: registra sin bloquear para calibrar los umbrales con tráfico real antes de pasar a bloquear. Pensado para cubrir el OWASP Top 10 de aplicaciones agénticas.
 
 </details>
 
@@ -346,6 +349,28 @@ Arquitectura de extremo a extremo para reembolsos médicos que junta OCR multimo
   revisar o rechazar.
 - **Multimodalidad**: Mistral procesa PDFs nativos, escaneados e imágenes y devuelve un esquema JSON
   estricto, con Markdown como respaldo.
+
+</details>
+
+<details>
+<summary><b>Copiloto para Data Manager</b></summary>
+<br>
+
+<p>
+  <a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIzLjE1IDIuNTg3IDE4LjIxLjIxYTEuNDk0IDEuNDk0IDAgMCAwLTEuNzA1LjI5bC05LjQ2IDguNjMtNC4xMi0zLjEyOGEuOTk5Ljk5OSAwIDAgMC0xLjI3Ni4wNTdMLjMyNyA3LjI2MUExIDEgMCAwIDAgLjMyNiA4Ljc0TDMuODk5IDEyIC4zMjYgMTUuMjZhMSAxIDAgMCAwIC4wMDEgMS40NzlMMS42NSAxNy45NGEuOTk5Ljk5OSAwIDAgMCAxLjI3Ni4wNTdsNC4xMi0zLjEyOCA5LjQ2IDguNjNhMS40OTIgMS40OTIgMCAwIDAgMS43MDQuMjlsNC45NDItMi4zNzdBMS41IDEuNSAwIDAgMCAyNCAyMC4wNlYzLjkzOWExLjUgMS41IDAgMCAwLS44NS0xLjM1MnptLTUuMTQ2IDE0Ljg2MUwxMC44MjYgMTJsNy4xNzgtNS40NDh2MTAuODk2eiIvPjwvc3ZnPg%3D%3D" alt="VS Code"></a>
+  <a href="https://www.atlassian.com/software/jira"><img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira"></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"></a>
+  <a href="https://kafka.apache.org"><img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka"></a>
+  <a href="https://git-scm.com"><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"></a>
+</p>
+
+Sistema de QA inteligente. Asistente dentro de VS Code para buscar, preparar y reservar datos de prueba, en vez de pelearse con las bases de datos a mano.
+
+- **De principio a fin**: lee los requisitos en Jira y comprueba que las APIs del entorno UAT están listas.
+- **Reserva inteligente**: localiza los datos y crea bloqueos temporales para que nadie más los pise.
+- **Sincronización Git**: commits y pushes automáticos. Si hay un conflicto, actualiza y busca otra alternativa.
+- **Conexión directa**: publica la información en las colas de Kafka.
+- **Cero alucinaciones**: no inventa comandos, usa herramientas en Node.js y se para a preguntar si falta un dato.
 
 </details>
 
@@ -503,31 +528,6 @@ No es un portfolio al uso: la propia web es uno de mis proyectos y está protegi
 - **Cabeceras de seguridad A+**: CSP con un nonce distinto en cada petición, HSTS, `X-Frame-Options`, `nosniff`, `Referrer-Policy`, `Permissions-Policy`, COOP y CORP. Nota A+ en [Security Headers](https://securityheaders.com/?q=https%3A%2F%2Falvarotena.pages.dev%2F&followRedirects=on) y en [Mozilla Observatory](https://developer.mozilla.org/en-US/observatory/analyze?host=alvarotena.pages.dev).
 - **Origen escondido**: el formulario y los archivos grandes viven en otro servidor que solo responde a Cloudflare con una cabecera secreta; si alguien entra directamente, acaba en el portfolio.
 - **Divulgación responsable**: [security.txt](https://alvarotena.pages.dev/.well-known/security.txt) (RFC 9116), política de seguridad y Dependabot con avisos y correcciones automáticas; cero vulnerabilidades conocidas en las dependencias.
-
-</details>
-
-<details>
-<summary><b>Proxy para Agentes de IA</b></summary>
-<br>
-
-<p>
-  <a href="https://go.dev"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"></a>
-  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
-  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"></a>
-  <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"></a>
-  <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
-  <a href="https://onnxruntime.ai"><img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime"></a>
-  <a href="https://huggingface.co/meta-llama/Llama-Guard-3-8B"><img src="https://img.shields.io/badge/Llama_Guard-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Llama Guard"></a>
-  <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-1C3C3C?style=flat-square" alt="MCP"></a>
-</p>
-
-Proxy de seguridad en tiempo de ejecución (RASP) que se sitúa entre los agentes de IA y el proveedor del modelo. Funciona como un antivirus para agentes: intercepta el tráfico, compara el significado de los prompts con firmas de ataque y vigila los flujos tóxicos de cada sesión.
-
-- **Filtro de entrada**: un modelo local de intención (Prompt-Guard y Llama Guard 3) decide si cada petición pasa; si no responde, bloquea.
-- **Proxy ligero sin Docker**: un binario en Go con ONNX Runtime bloquea credenciales, busca firmas de ataque por embeddings y pasa un clasificador de inyección de prompts.
-- **Router**: traduce entre OpenAI y Anthropic y evita que el prompt de sistema se filtre en las respuestas.
-- **Cadena de suministro**: un gateway MCP y un analizador (YARA y Frida) auditan skills y servidores MCP y los bloquean o los ponen en cuarentena.
-- **Modo sombra**: registra sin bloquear para calibrar los umbrales con tráfico real antes de pasar a bloquear. Pensado para cubrir el OWASP Top 10 de aplicaciones agénticas.
 
 </details>
 
