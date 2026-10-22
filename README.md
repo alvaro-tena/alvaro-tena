@@ -18,12 +18,14 @@
   </a>
 </p>
 
+<p align="center"><b>Verificación de Seguridad de mi Portfolio</b></p>
+
 <p align="center">
   <a href="https://securityheaders.com/?q=https%3A%2F%2Falvarotena.pages.dev%2F&followRedirects=on">
     <img src="https://img.shields.io/badge/Security%20Headers-A%2B-2ea44f?style=flat-square" alt="Security Headers A+">
   </a>
   <a href="https://developer.mozilla.org/en-US/observatory/analyze?host=alvarotena.pages.dev">
-    <img src="https://img.shields.io/badge/Mozilla%20Observatory-A%2B%20%C2%B7%20130%2F100-2ea44f?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla Observatory A+">
+    <img src="https://img.shields.io/badge/Mozilla%20Observatory-A%2B%20%C2%B7%20135%2F100-2ea44f?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla Observatory A+">
   </a>
   <a href="https://alvarotena.pages.dev/.well-known/security.txt">
     <img src="https://img.shields.io/badge/security.txt-RFC%209116-555555?style=flat-square" alt="security.txt">
@@ -477,6 +479,30 @@ Una guía para montar n8n en local de forma segura, porque la instalación por d
 - **Seguridad**: repaso del OWASP Top 10 y del de aplicaciones con LLM aplicados a n8n: doble factor, versiones fijadas, auditoría, logs centralizados y protección contra SSRF.
 
 Informe: [Descargar PDF](https://alvarotena.pages.dev/recursos/documentos/n8n-despliegue-local.pdf)
+
+</details>
+
+<details>
+<summary><b>Mi Portfolio</b></summary>
+<br>
+
+<p>
+  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"></a>
+  <a href="https://threejs.org"><img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"></a>
+  <a href="https://gsap.com"><img src="https://img.shields.io/badge/GSAP-0AE448?style=flat-square&logo=greensock&logoColor=black" alt="GSAP"></a>
+  <a href="https://vite.dev"><img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"></a>
+  <a href="https://pages.cloudflare.com"><img src="https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white" alt="Cloudflare Pages"></a>
+  <a href="https://www.cloudflare.com/application-services/products/turnstile/"><img src="https://img.shields.io/badge/Cloudflare_Turnstile-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Turnstile"></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"></a>
+</p>
+
+No es un portfolio al uso: la propia web es uno de mis proyectos y está protegida como un servicio en producción. Se puede ver en [alvarotena.pages.dev](https://alvarotena.pages.dev).
+
+- **Un PC que se desmonta**: un único PC en 3D construido por código con three.js, sin modelos descargados. Al hacer scroll se abre el cristal y las piezas salen una a una; los proyectos son los SSD M.2 de la placa, el stack son chips soldados en ella y las piezas se desintegran con un borde de luz. La calidad se ajusta sola para ir fluido en el móvil.
+- **Puerta anti-bots**: Cloudflare Turnstile comprueba que eres una persona antes de servir nada. Al pasarlo deja una cookie `HttpOnly` firmada con HMAC-SHA256 que dura 7 días; sin ella no se entrega ni una imagen.
+- **Cabeceras de seguridad A+**: CSP con un nonce distinto en cada petición, HSTS, `X-Frame-Options`, `nosniff`, `Referrer-Policy`, `Permissions-Policy`, COOP y CORP. Nota A+ en [Security Headers](https://securityheaders.com/?q=https%3A%2F%2Falvarotena.pages.dev%2F&followRedirects=on) y en [Mozilla Observatory](https://developer.mozilla.org/en-US/observatory/analyze?host=alvarotena.pages.dev).
+- **Origen escondido**: el formulario y los archivos grandes viven en otro servidor que solo responde a Cloudflare con una cabecera secreta; si alguien entra directamente, acaba en el portfolio.
+- **Divulgación responsable**: [security.txt](https://alvarotena.pages.dev/.well-known/security.txt) (RFC 9116), política de seguridad y Dependabot con avisos y correcciones automáticas; cero vulnerabilidades conocidas en las dependencias.
 
 </details>
 
