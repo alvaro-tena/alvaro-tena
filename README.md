@@ -13,7 +13,7 @@
   <a href="mailto:alvarotg2006@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo">
   </a>
-  <a href="https://portfolio-alvaro-swart.vercel.app">
+  <a href="https://alvarotena.pages.dev">
     <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
   </a>
 </p>
@@ -25,7 +25,7 @@
 Desarrollador de aplicaciones web full stack con una base sólida en sistemas y redes. Trabajo como
 ingeniero de software en **Softtek**, en proyectos de Inteligencia Artificial para compañías como
 ASISA, El Corte Inglés, Banco Santander o el Real Madrid C.F. Lo que hago y cómo lo hago está en
-mi [portfolio](https://portfolio-alvaro-swart.vercel.app).
+mi [portfolio](https://alvarotena.pages.dev).
 
 Programo sobre todo con React, Python y PHP, pero lo que de verdad me mueve son la **ciberseguridad**
 y la **IA**: automatizar con n8n, exprimir los copilotos y entender el lado defensivo de la red, desde
@@ -464,7 +464,7 @@ Una guía para montar n8n en local de forma segura, porque la instalación por d
 - **WAF y alta disponibilidad**: ModSecurity con las reglas de OWASP delante y dos instancias de n8n detrás que comparten PostgreSQL y clave de cifrado, con un servidor de respaldo si el principal falla.
 - **Seguridad**: repaso del OWASP Top 10 y del de aplicaciones con LLM aplicados a n8n: doble factor, versiones fijadas, auditoría, logs centralizados y protección contra SSRF.
 
-Informe: [Descargar PDF](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/n8n-despliegue-local.pdf)
+Informe: [Descargar PDF](https://alvarotena.pages.dev/recursos/documentos/n8n-despliegue-local.pdf)
 
 </details>
 
@@ -512,7 +512,7 @@ Prueba de REA, una herramienta que permite a un asistente de IA abrir un program
 - **kdbxlite**: con lo aprendido creé una aplicación propia que abre, lee y crea bases de datos que el KeePass original acepta, y al revés.
 - **Interfaz web**: abre una caja fuerte, muestra u oculta las contraseñas, crea entradas y explica lo que pasa por dentro en cada paso.
 
-Informe: [Descargar PDF](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/rea-keepass.pdf)
+Informe: [Descargar PDF](https://alvarotena.pages.dev/recursos/documentos/rea-keepass.pdf)
 
 </details>
 
@@ -535,9 +535,9 @@ Dos prácticas de 2.º de DAW con máquinas vulnerables a propósito, una desde 
 - **Corrección**: en cada una expliqué por qué el código era vulnerable y lo corregí con escape de caracteres, consultas parametrizadas, `allow_url_include` desactivado y una lista blanca. Cierra con un repaso del OWASP Top 10.
 - **WebGoat**: ataqué las mismas vulnerabilidades con Burp Suite: interceptar el login para saltarse el `maxlength` y entrar como administrador, y sacar un nombre carácter a carácter con Intruder y una inyección a ciegas.
 
-Informes: [OWASP BWA (PDF)](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/owasp-bwa.pdf) · [WebGoat (PDF)](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/webgoat.pdf)
+Informes: [OWASP BWA (PDF)](https://alvarotena.pages.dev/recursos/documentos/owasp-bwa.pdf) · [WebGoat (PDF)](https://alvarotena.pages.dev/recursos/documentos/webgoat.pdf)
 
-Vídeo: [Explotación de OWASP Broken Web Application (MP4)](https://portfolio-alvaro-swart.vercel.app/recursos/video/owaspAlvaro.mp4)
+Vídeo: [Explotación de OWASP Broken Web Application (MP4)](https://alvarotena.pages.dev/recursos/video/owaspAlvaro.mp4)
 
 </details>
 
@@ -559,7 +559,7 @@ Práctica de 2.º de DAW en la que monté desde cero un servidor web con NGINX e
 - **Balanceo de carga**: dos servidores se reparten las peticiones y, si apago uno, el otro sigue respondiendo.
 - **HTTPS**: certificado propio en el proxy y redirección 301 de HTTP a HTTPS.
 
-Informe: [Descargar PDF](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/servidores-web-nginx.pdf)
+Informe: [Descargar PDF](https://alvarotena.pages.dev/recursos/documentos/servidores-web-nginx.pdf)
 
 </details>
 
@@ -585,7 +585,7 @@ Práctica de 2.º de DAW en la que desplegué aplicaciones con cuatro tecnologí
 - **Netlify**: una aplicación React publicada primero desde la terminal y luego conectada a GitHub para que cada push se publique solo.
 - **Flask**: servida por Gunicorn como servicio de systemd y con NGINX delante.
 
-Informe: [Descargar PDF](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/servidores-aplicaciones.pdf)
+Informe: [Descargar PDF](https://alvarotena.pages.dev/recursos/documentos/servidores-aplicaciones.pdf)
 
 </details>
 
@@ -610,7 +610,7 @@ Práctica de 2.º de DAW en la que pasé de arrancar un contenedor de prueba a m
 - **PHP, NGINX y MySQL**: con contenedores de datos en lugar de compartir carpetas entre servicios.
 - **Autenticación con LDAP**: una web protegida con los usuarios de un directorio OpenLDAP, una vez con NGINX y otra con Apache, cambiando las imágenes del enunciado que ya estaban obsoletas.
 
-Informe: [Descargar PDF](https://portfolio-alvaro-swart.vercel.app/recursos/documentos/docker.pdf)
+Informe: [Descargar PDF](https://alvarotena.pages.dev/recursos/documentos/docker.pdf)
 
 </details>
 
@@ -662,7 +662,7 @@ Repositorio: [whatsappWeb](https://github.com/alvaro-tena/whatsappWeb)
 
 ## Contacto
 
-- Portfolio: [portfolio-alvaro-swart.vercel.app](https://portfolio-alvaro-swart.vercel.app)
+- Portfolio: [alvarotena.pages.dev](https://alvarotena.pages.dev)
 - LinkedIn: [Álvaro Tena García](https://www.linkedin.com/in/%C3%A1lvaro-tena-garc%C3%ADa-14662a182)
 - Correo: [alvarotg2006@gmail.com](mailto:alvarotg2006@gmail.com)
 
