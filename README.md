@@ -375,6 +375,28 @@ Sistema de QA inteligente. Asistente dentro de VS Code para buscar, preparar y r
 </details>
 
 <details>
+<summary><b>Fixeo de Vulnerabilidades en Proyectos (BBVA)</b></summary>
+<br>
+
+<p>
+  <a href="https://github.com"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.atlassian.com/software/jira"><img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira"></a>
+  <a href="https://git-scm.com"><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"></a>
+  <a href="https://www.npmjs.com"><img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white" alt="npm"></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"></a>
+</p>
+
+Proyecto para el BBVA. Resolución, ticket a ticket, de las vulnerabilidades de sus proyectos en GitHub, que son muchísimos y con muchísimas alertas.
+
+- **Entrada por Jira**: cada encargo llega como un ticket en un Jira personalizado para el BBVA, con el enlace al repositorio.
+- **Diagnóstico en GitHub**: el apartado Security and quality muestra qué tiene cada proyecto: secretos filtrados, dependencias vulnerables y otros avisos.
+- **Dependencias**: si una versión está anticuada, se descarga el proyecto y se actualiza en el `package.json`.
+- **Secretos filtrados**: se ocultan si son de producción y se ignoran si solo están en los tests.
+- **Objetivo**: dejar resueltas todas las vulnerabilidades de cada proyecto.
+
+</details>
+
+<details>
 <summary><b>Alvi, Mi Asistente Personal</b></summary>
 <br>
 
